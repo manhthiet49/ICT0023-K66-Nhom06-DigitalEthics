@@ -44,12 +44,12 @@ Phiên bản hiện tại là "v0.1-y-tuong", tập trung vào việc khởi t�
 
 9. Thành viên
 
-| Họ và tên | Vai trò |
-|-----------|----------|
-| Đinh Mạnh Thiết | Coordinator |
-| Phạm Thị Thúy | Driver |
-| Nguyễn Quỳnh Trang | Navigator |
-| Bùi Lục Huyền | Tester |
+| Họ và tên | Vai trò | Tài khoản GitHub |
+|-----------|----------|------------------|
+| Đinh Mạnh Thiết | Coordinator | @manhthiet49 |
+| Phạm Thị Thúy | Driver | @thuyptk66sptin |
+| Nguyễn Quỳnh Trang | Navigator | @trangnqk66sptin-stack|
+| Bùi Lục Huyền | Tester | @huyenblk66sptin-glitch|
 
 10. Các mốc phát triển
 
