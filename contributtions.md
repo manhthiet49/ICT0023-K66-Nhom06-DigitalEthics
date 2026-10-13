@@ -1,60 +1,59 @@
-1. Phiên bản
+# CONTRIBUTIONS
 
-v0.1-y-tuong
+## 1. Phiên bản
 
-2. Thành viên
+**v0.2-html**
 
-| Họ và tên | Vai trò |
-|-----------|----------|
-| Đinh Mạnh Thiết | Coordinator |
-| Phạm Thị Thúy | Driver |
-| Nguyễn Quỳnh Trang | Navigator |
-| Bùi Lục Huyền | Tester |
+## 2. Thành viên
 
-3. Công việc thực hiện trong phiên bản v0.1
+| Họ và tên | Vai trò | Tài khoản GitHub |
+|-----------|----------|------------------|
+| Đinh Mạnh Thiết | Coordinator | @manhthiet49 |
+| Phạm Thị Thúy | Driver | @thuyptk66sptin |
+| Nguyễn Quỳnh Trang | Navigator | @trangnqk66sptin-stack |
+| Bùi Lục Huyền | Tester | @huyenblk66sptin-glitch |
 
-a. Đinh Mạnh Thiết (Coordinator)
 
-Thực hiện:
+## 3. Công việc thực hiện trong phiên bản v0.2
 
-- Khởi tạo Repository GitHub.
-- Xây dựng cấu trúc thư mục.
-- Tạo các file ban đầu.
-- Thêm thành viên vào Repository.
-- Tạo Branch.
-- Tạo Issue.
-- Xây dựng kế hoạch phát triển dự án.
-- Soạn README.md.
-- Soạn CONTRIBUTIONS.md.
-- Soạn SOURCES.md.
+### a. Đinh Mạnh Thiết (Coordinator)
 
-4. Phạm Thị Thúy (Driver)
+**Đã thực hiện:**
 
-Chưa thực hiện.
+- Quản lý GitHub Repository.
+- Tạo Branch và Issue.
+- Quản lý Pull Request và Merge.
+- Xây dựng index.html.
+- Hoàn thiện README.md.
+- Hoàn thiện CONTRIBUTIONS.md.
+- Hoàn thiện SOURCES.md.
+- Kiểm tra và thống nhất cấu trúc website.
 
-Sẽ bắt đầu từ phiên bản "v0.2-html" với:
+### b. Phạm Thị Thúy (Driver)
 
-- lesson.html
-- quiz.html
+**Đã thực hiện:**
 
-5. Nguyễn Quỳnh Trang (Navigator)
+- Xây dựng lesson.html.
+- Xây dựng quiz.html.
+- Hoàn thiện nội dung bài giảng và trang ôn tập theo Chủ đề D.
 
-Chưa thực hiện.
+### c. Nguyễn Quỳnh Trang (Navigator)
 
-Sẽ bắt đầu từ phiên bản "v0.2-html" với:
+**Đã thực hiện:**
 
-- glossary.html
+- Xây dựng glossary.html.
+- Biên soạn các thuật ngữ cơ bản phù hợp với nội dung bài học.
 
-6. Bùi Lục Huyền (Tester)
+### d. Bùi Lục Huyền (Tester)
 
-Chưa thực hiện.
+**Đã thực hiện:**
 
-Sẽ bắt đầu từ phiên bản "v0.2-html" với:
+- Xây dựng contact.html.
+- Thiết kế biểu mẫu liên hệ và phần thông tin nhóm.
+- Kiểm tra bố cục và liên kết của trang liên hệ.
 
-- contact.html
-  
-## Ghi chú
 
--Phiên bản v0.1 chỉ thực hiện công việc khởi tạo dự án.
+## 4. Ghi chú
 
-- Việc phát triển giao diện và chức năng sẽ được thực hiện từ phiên bản v0.2.
+- Phiên bản **v0.2-html** tập trung xây dựng cấu trúc website và hoàn thành 05 trang HTML theo phân công.
+- Giao diện CSS, các chức năng JavaScript, jQuery và xử lý dữ liệu sẽ được phát triển ở các phiên bản tiếp theo.
