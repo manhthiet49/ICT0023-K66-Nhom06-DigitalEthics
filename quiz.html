@@ -17,7 +17,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
 
         <div class="container">
 
@@ -71,13 +71,15 @@
 
         <div class="container">
 
-            <h1 class="fw-bold">
-                Trắc nghiệm ôn tập
-            </h1>
+            <h1 class="fw-bold">Trắc nghiệm ôn tập</h1>
 
             <p class="lead">
                 Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số
             </p>
+
+            <img src="images/banner.jpg"
+                class="img-fluid rounded shadow mt-3"
+                alt="Banner">
 
         </div>
 
@@ -95,9 +97,9 @@
 
                 <li>Chọn một đáp án đúng nhất.</li>
 
-                <li>Nhấn nút <strong>Nộp bài</strong> để xem kết quả.</li>
+                <li>Nhấn nút <strong>Nộp bài</strong> sau khi hoàn thành.</li>
 
-                <li>Kết quả chỉ mang tính tham khảo.</li>
+                <li>Có thể nhấn <strong>Làm lại</strong> để chọn lại đáp án.</li>
 
             </ul>
 
@@ -107,99 +109,139 @@
 
     <section class="container pb-5">
 
-        <h2 class="text-primary mb-4">
-            Câu hỏi ôn tập
-        </h2>
+        <h2 class="text-primary mb-4">Câu hỏi ôn tập</h2>
 
         <form>
 
-            <div class="mb-4">
+            <div class="card shadow-sm mb-4">
 
-                <h5>Câu 1. Đâu là hành vi thể hiện văn hóa ứng xử trong môi trường số?</h5>
+                <div class="card-body">
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q1">
-                    <label class="form-check-label">
-                        Bình luận lịch sự, tôn trọng người khác.
-                    </label>
-                </div>
+                    <h5>Câu 1. Đâu là hành vi thể hiện đạo đức trong môi trường số?</h5>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q1">
-                    <label class="form-check-label">
-                        Chia sẻ thông tin sai sự thật để thu hút sự chú ý.
-                    </label>
-                </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q1">
+                        <label class="form-check-label">
+                            Chia sẻ tin giả lên mạng xã hội.
+                        </label>
+                    </div>
 
-            </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q1">
+                        <label class="form-check-label">
+                            Tôn trọng người khác khi giao tiếp trên Internet.
+                        </label>
+                    </div>
 
-            <div class="mb-4">
-
-                <h5>Câu 2. Để bảo vệ tài khoản cá nhân, người dùng nên:</h5>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q2">
-                    <label class="form-check-label">
-                        Đặt mật khẩu mạnh và bật xác thực hai lớp.
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q2">
-                    <label class="form-check-label">
-                        Sử dụng cùng một mật khẩu cho tất cả tài khoản.
-                    </label>
                 </div>
 
             </div>
 
-            <div class="mb-4">
+            <div class="card shadow-sm mb-4">
 
-                <h5>Câu 3. Khi phát hiện thông tin chưa được kiểm chứng trên mạng, bạn nên:</h5>
+                <div class="card-body">
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q3">
-                    <label class="form-check-label">
-                        Kiểm tra nguồn tin trước khi chia sẻ.
-                    </label>
-                </div>
+                    <h5>Câu 2. Để bảo vệ tài khoản cá nhân, mật khẩu nên như thế nào?</h5>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q3">
-                    <label class="form-check-label">
-                        Chia sẻ ngay cho nhiều người.
-                    </label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q2">
+                        <label class="form-check-label">
+                            Đơn giản và dễ nhớ như 123456.
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q2">
+                        <label class="form-check-label">
+                            Mạnh, có chữ hoa, chữ thường, số và ký tự đặc biệt.
+                        </label>
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="mb-4">
+            <div class="card shadow-sm mb-4">
 
-                <h5>Câu 4. Hành động nào sau đây đúng với quy định pháp luật trên môi trường số?</h5>
+                <div class="card-body">
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q4">
-                    <label class="form-check-label">
-                        Tôn trọng bản quyền và quyền riêng tư.
-                    </label>
+                    <h5>Câu 3. Hành vi nào sau đây phù hợp với pháp luật trong môi trường số?</h5>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q3">
+                        <label class="form-check-label">
+                            Tôn trọng bản quyền của người khác.
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q3">
+                        <label class="form-check-label">
+                            Sao chép tài liệu và phát tán trái phép.
+                        </label>
+                    </div>
+
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q4">
-                    <label class="form-check-label">
-                        Sao chép tác phẩm của người khác rồi đăng lại.
-                    </label>
+            </div>
+
+            <div class="card shadow-sm mb-4">
+
+                <div class="card-body">
+
+                    <h5>Câu 4. Văn hóa ứng xử trên môi trường số thể hiện qua điều nào?</h5>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4">
+                        <label class="form-check-label">
+                            Giao tiếp lịch sự, tôn trọng mọi người.
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4">
+                        <label class="form-check-label">
+                            Bình luận xúc phạm người khác.
+                        </label>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card shadow-sm mb-4">
+
+                <div class="card-body">
+
+                    <h5>Câu 5. Công dân số có trách nhiệm cần làm gì?</h5>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q5">
+                        <label class="form-check-label">
+                            Kiểm chứng thông tin trước khi chia sẻ.
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q5">
+                        <label class="form-check-label">
+                            Chia sẻ mọi thông tin nhận được mà không kiểm tra.
+                        </label>
+                    </div>
+
                 </div>
 
             </div>
 
             <div class="text-center">
 
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary me-2">
+                    <i class="bi bi-check-circle"></i>
                     Nộp bài
                 </button>
 
-                <button type="reset" class="btn btn-outline-secondary ms-2">
+                <button type="reset" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-clockwise"></i>
                     Làm lại
                 </button>
 
@@ -217,8 +259,10 @@
 
             <p>Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số.</p>
 
+            <p>Nhóm 6 - Trường Đại học Tây Bắc</p>
+
             <p class="mb-0">
-                Nhóm 6 - Trường Đại học Tây Bắc
+                © 2026 Website bài giảng Tin học THPT. Mọi quyền được bảo lưu.
             </p>
 
         </div>
@@ -230,4 +274,4 @@
 </body>
 
 </html>
-
+cdn.jsdelivr.net
