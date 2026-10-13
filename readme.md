@@ -1,78 +1,110 @@
-1. ICT0023-K66-Nhom06-DigitalEthics
-   
-2. Website bài giảng Tin học THPT
-   
-3. Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số
-   
-4. Giới thiệu
+ ICT0023-K66-Nhom06-DigitalEthics
 
-- Đây là dự án của Nhóm 6 thuộc học phần "Thiết kế Web"- Trường Đại học Tây Bắc.
+ Website bài giảng Tin học THPT
 
-- Website được xây dựng nhằm hỗ trợ giáo viên và học sinh THPT học tập Chủ đề D: "Đạo đức, pháp luật và văn hóa trong môi trường số". Website hoạt động hoàn toàn trên trình duyệt, không sử dụng cơ sở dữ liệu hoặc backend.
+ Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số
 
-Phiên bản hiện tại là "v0.1-y-tuong", tập trung vào việc khởi tạo dự án, xây dựng cấu trúc website và lập kế hoạch phát triển.
+1. Giới thiệu
 
-5. Mục tiêu
+Đây là dự án của Nhóm 6 thuộc học phần "Thiết kế Web (ICT0023)" - Trường Đại học Tây Bắc.
+
+Website được xây dựng nhằm hỗ trợ giáo viên và học sinh THPT học tập "Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số". Website hoạt động hoàn toàn trên trình duyệt, không sử dụng cơ sở dữ liệu hoặc backend.
+
+Phiên bản hiện tại là "v0.2-html", tập trung vào việc xây dựng cấu trúc website và hoàn thiện các trang HTML theo đúng yêu cầu của học phần.
+
+2. Mục tiêu
 
 - Xây dựng website bài giảng trực quan, dễ sử dụng.
-- Hỗ trợ học sinh tự học và giáo viên giảng dạy.
-- Áp dụng HTML, CSS, Bootstrap, JavaScript và jQuery.
+- Hỗ trợ giáo viên giảng dạy và học sinh tự học.
+- Áp dụng HTML5 làm nền tảng xây dựng website.
+- Chuẩn bị cho các giai đoạn phát triển CSS, Bootstrap, JavaScript và jQuery.
 - Quản lý dự án bằng GitHub.
 
-6. Đối tượng sử dụng
+3. Đối tượng sử dụng
 
 - Giáo viên THPT.
 - Học sinh THPT.
 
-7. Cấu trúc website dự kiến
+ 4. Cấu trúc website
 
-- Trang chủ (index.html)
-- Bài học (lesson.html)
-- Trắc nghiệm (quiz.html)
-- Thuật ngữ (glossary.html)
-- Liên hệ (contact.html)
+- Trang chủ (`index.html`)
+- Bài giảng (`lesson.html`)
+- Ôn tập (`quiz.html`)
+- Thuật ngữ (`glossary.html`)
+- Liên hệ (`contact.html`)
 
-8. Công nghệ dự kiến
+5. Công nghệ sử dụng
 
 - HTML5
-- CSS3
+- CSS3 (chuẩn bị cho phiên bản tiếp theo)
 - Bootstrap 5
-- JavaScript
-- jQuery
+- JavaScript (chuẩn bị cho phiên bản tiếp theo)
+- jQuery (chuẩn bị cho phiên bản tiếp theo)
 - GitHub
 - GitHub Pages
 
-9. Thành viên
+6. Thành viên
 
 | Họ và tên | Vai trò | Tài khoản GitHub |
 |-----------|----------|------------------|
 | Đinh Mạnh Thiết | Coordinator | @manhthiet49 |
 | Phạm Thị Thúy | Driver | @thuyptk66sptin |
-| Nguyễn Quỳnh Trang | Navigator | @trangnqk66sptin-stack|
-| Bùi Lục Huyền | Tester | @huyenblk66sptin-glitch|
+| Nguyễn Quỳnh Trang | Navigator | @trangnqk66sptin-stack |
+| Bùi Lục Huyền | Tester | @huyenblk66sptin-glitch |
 
-10. Các mốc phát triển
+7. Phân công công việc
 
-- v0.1-y-tuong
-- v0.2-html
-- v0.3-giao-dien
-- v0.4-tuong-tac
-- v1.0-final
+a. Đinh Mạnh Thiết (Coordinator)
 
-11. Trạng thái hiện tại
+- Quản lý GitHub Repository.
+- Tạo Branch và Issue.
+- Quản lý Pull Request và Merge.
+- Xây dựng index.html.
+- Hoàn thiện readme.md.
+- Hoàn thiện contributions.md.
+- Hoàn thiện sources.md.
 
-- Hoàn thành khởi tạo Repository.
+b. Phạm Thị Thúy (Driver)
 
-- Hoàn thành cấu trúc thư mục.
+- Xây dựng lesson.html.
+- Xây dựng quiz.html.
 
-- Hoàn thành kế hoạch phát triển dự án.
+c. Nguyễn Quỳnh Trang (Navigator)
 
-Các chức năng sẽ được bổ sung trong các phiên bản tiếp theo.
+- Xây dựng glossary.html.
 
-12. Repository
+d. Bùi Lục Huyền (Tester)
 
-Sẽ cập nhật sau.
+- Xây dựng `contact.html`.
 
-13. GitHub Pages
+8. Tiến độ phát triển
 
-Sẽ cập nhật sau.
+-  v0.1-y-tuong đã hoàn thành
+-  v0.2-html đã hoàn thành
+-  v0.3-giao-dien chưa hoàn thành
+-  v0.4-tuong-tac chưa hoàn thành
+-  v1.0-final chưa hoàn thành
+
+9. Trạng thái hiện tại
+
+Đã hoàn thành:
+
+- Khởi tạo GitHub Repository.
+- Xây dựng cấu trúc thư mục dự án.
+- Hoàn thành 05 trang HTML.
+- Hoàn thành thanh điều hướng (Navigation).
+- Hoàn thành Header và Footer.
+- Hoàn thành nội dung cơ bản của website theo Chủ đề D.
+- Hoàn thành README.md.
+- Hoàn thành CONTRIBUTIONS.md.
+- Hoàn thành SOURCES.md.
+
+Các chức năng CSS, JavaScript, JSON, jQuery và GitHub Pages sẽ được phát triển ở các phiên bản tiếp theo.
+
+10. Repository
+
+https://github.com/manhthiet49/ICT0023-K66-Nhom06-DigitalEthics
+
+11. GitHub Pages
+
+Sẽ cập nhật sau khi hoàn thành website.
