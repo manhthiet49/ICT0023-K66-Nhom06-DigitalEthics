@@ -1,46 +1,57 @@
-## Phiên bản
+# SOURCES
 
-v0.1-y-tuong
+## 1. Tài liệu
 
-1. Tài liệu
+| Nguồn | Mục đích sử dụng |
+|-------|------------------|
+| Sách giáo khoa Tin học THPT (Chương trình GDPT 2018) | Tham khảo nội dung bài giảng và thuật ngữ. |
+| Tài liệu học phần Thiết kế Web (ICT0023) - Trường Đại học Tây Bắc | Tham khảo yêu cầu xây dựng website và kỹ thuật HTML. |
+| Tài liệu hướng dẫn bài tập lớn của giảng viên | Tham khảo yêu cầu về GitHub, Git, Bootstrap và cấu trúc website. |
 
-Dự kiến sử dụng:
 
-- Chương trình Giáo dục phổ thông 2018 môn Tin học.
-- SGK Tin học THPT.
-- Tài liệu học phần Thiết kế Web.
-- Bootstrap.
+## 2. Mã tham khảo
 
-2. Mã tham khảo
+**Không sử dụng mã nguồn từ repository hoặc website khác trong phiên bản v0.2-html.**
 
-- Hiện tại chưa sử dụng mã nguồn từ bên ngoài.
+## 3. Ảnh và dữ liệu
 
-- Nếu có sử dụng trong các phiên bản tiếp theo, nhóm sẽ cập nhật:
+### Ảnh
 
-- Đường dẫn (URL)
-- Tác giả
-- Ngày truy cập
-- Nội dung tham khảo
-- Cách chỉnh sửa
-- Kết quả kiểm thử
+Chưa sử dụng ảnh trong phiên bản **v0.2-html**.
 
-3. Ảnh và dữ liệu
+### Dữ liệu
 
-Hiện tại chưa bổ sung hình ảnh và dữ liệu.
+- Nội dung bài giảng do Nhóm 6 tự biên soạn.
+- Các thuật ngữ và nội dung ôn tập được xây dựng từ tài liệu học tập môn Tin học THPT.
 
-Các hình ảnh, biểu tượng và dữ liệu sẽ được cập nhật trong quá trình phát triển website.
+## 4. Công cụ AI
 
-4. Công cụ AI
+**Công cụ**
 
-Dự kiến sử dụng ChatGPT để:
+- ChatGPT 
 
-- Gợi ý bố cục website.
-- Giải thích HTML, CSS, JavaScript.
-- Hỗ trợ sửa lỗi.
-- Gợi ý tối ưu giao diện.
+**Ngày sử dụng**
 
-Nhóm sẽ tự kiểm tra, chỉnh sửa và chịu trách nhiệm đối với toàn bộ mã nguồn được sử dụng.
+- Tháng 10 năm 2026.
+
+**Mục đích sử dụng**
+
+- Gợi ý cấu trúc website.
+- Hỗ trợ giải thích HTML.
+- Gợi ý cách tổ chức nội dung website.
+
+**Phần tiếp nhận**
+
+- Tham khảo cách trình bày tài liệu.
+- Tham khảo cấu trúc thư mục và quy trình GitHub.
+
+**Phần nhóm tự thực hiện**
+
+- Thiết kế cấu trúc website.
+- Viết và chỉnh sửa mã HTML.
+- Phân công công việc cho các thành viên.
+- Kiểm tra và hoàn thiện toàn bộ nội dung trước khi đưa lên GitHub.
 
 ## Ghi chú
 
-Tài liệu tham khảo sẽ được cập nhật đầy đủ ở phiên bản "v1.0-final" theo yêu cầu của giảng viên.
+Phiên bản **v0.2-html** chỉ sử dụng HTML để xây dựng cấu trúc website. CSS, JavaScript, jQuery, JSON và các chức năng tương tác sẽ được bổ sung ở các phiên bản tiếp theo.
