@@ -1,62 +1,102 @@
 [
   {
-    "id": 1,
-    "question": "Công dân số cần làm gì?",
+    "question": " Đạo đức số là gì?",
     "answers": [
-      "Chia sẻ thông tin cá nhân cho mọi người.",
-      "Sử dụng Internet có trách nhiệm."
+      "Sử dụng Internet có trách nhiệm và văn minh",
+      "Chơi game nhiều hơn",
+      "Đăng mọi thông tin lên mạng",
+      "Sử dụng mạng không cần quy tắc"
     ],
-    "correct": 1,
-    "explain": "Công dân số cần sử dụng Internet có trách nhiệm và tuân thủ các quy định."
+    "correct": 0
   },
   {
-    "id": 2,
-    "question": "Mật khẩu nên như thế nào?",
+    "question": " Hành vi nào sau đây thể hiện văn hóa trên môi trường số?",
     "answers": [
-      "Dễ nhớ như 123456.",
-      "Mạnh, có chữ, số và ký tự đặc biệt."
+      "Bình luận lịch sự và tôn trọng người khác",
+      "Chia sẻ tin giả",
+      "Xúc phạm người khác",
+      "Đăng thông tin sai sự thật"
     ],
-    "correct": 1,
-    "explain": "Mật khẩu mạnh giúp bảo vệ tài khoản và dữ liệu cá nhân."
+    "correct": 0
   },
   {
-    "id": 3,
-    "question": "Hành vi nào sau đây là đúng?",
+    "question": " Mã OTP dùng để làm gì?",
     "answers": [
-      "Chia sẻ tin giả.",
-      "Tôn trọng bản quyền."
+      "Xác thực tài khoản",
+      "Đổi tên tài khoản",
+      "Lưu mật khẩu",
+      "Tăng tốc Internet"
     ],
-    "correct": 1,
-    "explain": "Mỗi người cần tôn trọng bản quyền và không phát tán nội dung trái phép."
+    "correct": 0
   },
   {
-    "id": 4,
-    "question": "OTP là gì?",
+    "question": " Việc nào giúp bảo vệ thông tin cá nhân?",
     "answers": [
-      "Mã xác thực dùng một lần.",
-      "Mật khẩu Wi-Fi."
+      "Chia sẻ mật khẩu cho bạn bè",
+      "Sử dụng mật khẩu mạnh và xác thực hai lớp",
+      "Đăng công khai số điện thoại",
+      "Nhấp vào mọi liên kết lạ"
     ],
-    "correct": 0,
-    "explain": "OTP (One-Time Password) là mã xác thực chỉ sử dụng một lần."
+    "correct": 1
   },
   {
-    "id": 5,
-    "question": "Để bảo vệ thông tin cá nhân, bạn nên làm gì?",
+    "question": " Tin giả là gì?",
     "answers": [
-      "Chia sẻ mật khẩu cho bạn bè.",
-      "Bật xác thực hai lớp."
+      "Thông tin sai sự thật được lan truyền",
+      "Thông tin từ sách giáo khoa",
+      "Thông tin của giáo viên",
+      "Thông tin từ cơ quan nhà nước"
     ],
-    "correct": 1,
-    "explain": "Xác thực hai lớp giúp tăng cường bảo mật tài khoản."
+    "correct": 0
   },
   {
-    "id": 6,
-    "question": "Khi phát hiện thông tin chưa được kiểm chứng trên Internet, bạn nên làm gì?",
+    "question": " Công dân số cần làm gì?",
     "answers": [
-      "Chia sẻ ngay cho mọi người.",
-      "Kiểm chứng trước khi chia sẻ."
+      "Tuân thủ pháp luật khi sử dụng Internet",
+      "Phát tán virus",
+      "Vi phạm bản quyền",
+      "Đăng thông tin sai sự thật"
     ],
-    "correct": 1,
-    "explain": "Chỉ chia sẻ thông tin sau khi đã kiểm chứng để tránh lan truyền tin giả."
+    "correct": 0
+  },
+  {
+    "question": " Hành vi nào vi phạm pháp luật trên môi trường số?",
+    "answers": [
+      "Chia sẻ phần mềm có bản quyền khi chưa được phép",
+      "Bảo vệ dữ liệu cá nhân",
+      "Tôn trọng quyền riêng tư",
+      "Kiểm chứng thông tin trước khi chia sẻ"
+    ],
+    "correct": 0
+  },
+  {
+    "question": " Văn hóa số thể hiện qua hành động nào?",
+    "answers": [
+      "Ứng xử lịch sự trên mạng",
+      "Nói xấu người khác",
+      "Đăng bình luận xúc phạm",
+      "Lan truyền tin đồn"
+    ],
+    "correct": 0
+  },
+  {
+    "question": " Nếu nhận được liên kết lạ, bạn nên làm gì?",
+    "answers": [
+      "Nhấp ngay để xem",
+      "Chia sẻ cho mọi người",
+      "Không mở và kiểm tra nguồn gửi",
+      "Đăng lên mạng xã hội"
+    ],
+    "correct": 2
+  },
+  {
+    "question": " Khi tham gia môi trường số, mỗi người cần có trách nhiệm gì?",
+    "answers": [
+      "Tôn trọng người khác và tuân thủ pháp luật",
+      "Làm mọi điều mình thích",
+      "Đăng tải mọi thông tin cá nhân",
+      "Bỏ qua các quy định trên Internet"
+    ],
+    "correct": 0
   }
 ]
