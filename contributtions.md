@@ -2,7 +2,7 @@
 
 ## 1. Phiên bản
 
-**v0.2-html**
+**v0.3-giao-dien**
 
 ## 2. Thành viên
 
@@ -13,47 +13,46 @@
 | Nguyễn Quỳnh Trang | Navigator | @trangnqk66sptin-stack |
 | Bùi Lục Huyền | Tester | @huyenblk66sptin-glitch |
 
-
-## 3. Công việc thực hiện trong phiên bản v0.2
+## 3. Công việc thực hiện trong phiên bản v0.3
 
 ### a. Đinh Mạnh Thiết (Coordinator)
 
 **Đã thực hiện:**
 
-- Quản lý GitHub Repository.
-- Tạo Branch và Issue.
-- Quản lý Pull Request và Merge.
-- Xây dựng index.html.
-- Hoàn thiện README.md.
-- Hoàn thiện CONTRIBUTIONS.md.
-- Hoàn thiện SOURCES.md.
-- Kiểm tra và thống nhất cấu trúc website.
+- Thiết kế giao diện chung của website bằng CSS.
+- Hoàn thiện index.html.
+- Hoàn thiện bố cục, màu sắc, banner và footer.
+- Đồng bộ giao diện giữa các trang.
+- Cập nhật README.md.
+- Cập nhật CONTRIBUTIONS.md.
+- Cập nhật SOURCES.md.
 
 ### b. Phạm Thị Thúy (Driver)
 
 **Đã thực hiện:**
 
-- Xây dựng lesson.html.
-- Xây dựng quiz.html.
-- Hoàn thiện nội dung bài giảng và trang ôn tập theo Chủ đề D.
+- Hoàn thiện giao diện lesson.html.
+- Hoàn thiện giao diện quiz.html.
+- Căn chỉnh bố cục, card, bảng và danh sách.
+- Đồng bộ màu sắc và kiểu trình bày với toàn website.
 
 ### c. Nguyễn Quỳnh Trang (Navigator)
 
 **Đã thực hiện:**
 
-- Xây dựng glossary.html.
-- Biên soạn các thuật ngữ cơ bản phù hợp với nội dung bài học.
+- Hoàn thiện giao diện glossary.html.
+- Trình bày các thuật ngữ bằng card và lưới Bootstrap.
+- Căn chỉnh giao diện phù hợp với thiết kế chung.
 
 ### d. Bùi Lục Huyền (Tester)
 
 **Đã thực hiện:**
 
-- Xây dựng contact.html.
-- Thiết kế biểu mẫu liên hệ và phần thông tin nhóm.
-- Kiểm tra bố cục và liên kết của trang liên hệ.
-
+- Hoàn thiện giao diện contact.html.
+- Thiết kế form góp ý và phần thông tin liên hệ.
+- Kiểm tra hiển thị trên nhiều kích thước màn hình.
 
 ## 4. Ghi chú
 
-- Phiên bản **v0.2-html** tập trung xây dựng cấu trúc website và hoàn thành 05 trang HTML theo phân công.
-- Giao diện CSS, các chức năng JavaScript, jQuery và xử lý dữ liệu sẽ được phát triển ở các phiên bản tiếp theo.
+- Phiên bản **v0.3-giao-dien** tập trung vào CSS, Bootstrap và responsive.
+- Các chức năng JavaScript, JSON, jQuery và xử lý tương tác sẽ được phát triển ở phiên bản tiếp theo.
