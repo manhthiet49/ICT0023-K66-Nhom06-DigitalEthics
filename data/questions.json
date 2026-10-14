@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Công dân số cần làm gì?",
+    "answers": [
+      "Chia sẻ thông tin cá nhân cho mọi người.",
+      "Sử dụng Internet có trách nhiệm."
+    ],
+    "correct": 1,
+    "explain": "Công dân số cần sử dụng Internet có trách nhiệm và tuân thủ các quy định."
+  },
+  {
+    "id": 2,
+    "question": "Mật khẩu nên như thế nào?",
+    "answers": [
+      "Dễ nhớ như 123456.",
+      "Mạnh, có chữ, số và ký tự đặc biệt."
+    ],
+    "correct": 1,
+    "explain": "Mật khẩu mạnh giúp bảo vệ tài khoản và dữ liệu cá nhân."
+  },
+  {
+    "id": 3,
+    "question": "Hành vi nào sau đây là đúng?",
+    "answers": [
+      "Chia sẻ tin giả.",
+      "Tôn trọng bản quyền."
+    ],
+    "correct": 1,
+    "explain": "Mỗi người cần tôn trọng bản quyền và không phát tán nội dung trái phép."
+  },
+  {
+    "id": 4,
+    "question": "OTP là gì?",
+    "answers": [
+      "Mã xác thực dùng một lần.",
+      "Mật khẩu Wi-Fi."
+    ],
+    "correct": 0,
+    "explain": "OTP (One-Time Password) là mã xác thực chỉ sử dụng một lần."
+  },
+  {
+    "id": 5,
+    "question": "Để bảo vệ thông tin cá nhân, bạn nên làm gì?",
+    "answers": [
+      "Chia sẻ mật khẩu cho bạn bè.",
+      "Bật xác thực hai lớp."
+    ],
+    "correct": 1,
+    "explain": "Xác thực hai lớp giúp tăng cường bảo mật tài khoản."
+  },
+  {
+    "id": 6,
+    "question": "Khi phát hiện thông tin chưa được kiểm chứng trên Internet, bạn nên làm gì?",
+    "answers": [
+      "Chia sẻ ngay cho mọi người.",
+      "Kiểm chứng trước khi chia sẻ."
+    ],
+    "correct": 1,
+    "explain": "Chỉ chia sẻ thông tin sau khi đã kiểm chứng để tránh lan truyền tin giả."
+  }
+]
