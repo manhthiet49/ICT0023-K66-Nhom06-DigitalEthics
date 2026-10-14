@@ -76,7 +76,7 @@ Phiên bản hiện tại là **v0.4-tuong-tac**, tập trung vào các chức n
 
 ### Nguyễn Quỳnh Trang (Navigator)
 
-- Hoàn thiện chức năng tìm kiếm/lọc thuật ngữ.
+- Hoàn thiện thuật ngữ.
 
 ### Bùi Lục Huyền (Tester)
 
