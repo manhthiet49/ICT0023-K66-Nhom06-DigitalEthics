@@ -775,3 +775,26 @@ body.dark-mode .table-hover tbody tr:hover {
   object-fit: cover;
   display: block;
 }
+img {
+  transition: all 0.35s ease;
+}
+
+.hero-image,
+.lesson-image-top,
+#quizContainer img,
+#glossaryContainer img,
+#contactForm img,
+.card img {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+}
+
+.hero-image:hover,
+.lesson-image-top:hover,
+#quizContainer img:hover,
+#glossaryContainer img:hover,
+#contactForm img:hover,
+.card img:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+}
