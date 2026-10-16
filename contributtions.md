@@ -1,60 +1,60 @@
-1. Phiên bản
+# CONTRIBUTIONS
 
-v0.1-y-tuong
+## 1. Phiên bản
 
-2. Thành viên
+**v0.4-tuong-tac**
 
-| Họ và tên | Vai trò |
-|-----------|----------|
-| Đinh Mạnh Thiết | Coordinator |
-| Phạm Thị Thúy | Driver |
-| Nguyễn Quỳnh Trang | Navigator |
-| Bùi Lục Huyền | Tester |
 
-3. Công việc thực hiện trong phiên bản v0.1
+## 2. Thành viên
 
-a. Đinh Mạnh Thiết (Coordinator)
+| Họ và tên | Vai trò | Tài khoản GitHub |
+|-----------|----------|------------------|
+| Đinh Mạnh Thiết | Coordinator | @manhthiet49 |
+| Phạm Thị Thúy | Driver | @thuyptk66sptin |
+| Nguyễn Quỳnh Trang | Navigator | @trangnqk66sptin-stack |
+| Bùi Lục Huyền | Tester | @huyenblk66sptin-glitch |
 
-Thực hiện:
+---
 
-- Khởi tạo Repository GitHub.
-- Xây dựng cấu trúc thư mục.
-- Tạo các file ban đầu.
-- Thêm thành viên vào Repository.
-- Tạo Branch.
-- Tạo Issue.
-- Xây dựng kế hoạch phát triển dự án.
-- Soạn README.md.
-- Soạn CONTRIBUTIONS.md.
-- Soạn SOURCES.md.
+## 3. Công việc thực hiện trong phiên bản v0.4
 
-4. Phạm Thị Thúy (Driver)
+### a. Đinh Mạnh Thiết (Coordinator)
 
-Chưa thực hiện.
+**Đã thực hiện:**
 
-Sẽ bắt đầu từ phiên bản "v0.2-html" với:
+- Xây dựng js/script.js.
+- Xây dựng data/questions.json.
+- Hỗ trợ chức năng dùng chung cho website.
+- Quản lý và kiểm tra các Pull Request.
+- Cập nhật README.md.
+- Cập nhật CONTRIBUTIONS.md.
+- Cập nhật SOURCES.md.
 
-- lesson.html
-- quiz.html
+### b. Phạm Thị Thúy (Driver)
 
-5. Nguyễn Quỳnh Trang (Navigator)
+**Đã thực hiện:**
 
-Chưa thực hiện.
+- Hoàn thiện chức năng quiz tương tác.
+- Hiển thị câu hỏi từ `data/questions.json`.
+- Chấm điểm bài trắc nghiệm.
+- Hiển thị kết quả và nút làm lại.
 
-Sẽ bắt đầu từ phiên bản "v0.2-html" với:
+### c. Nguyễn Quỳnh Trang (Navigator)
 
-- glossary.html
+**Đã thực hiện:**
 
-6. Bùi Lục Huyền (Tester)
+- Hoàn thiện thuật ngữ.
+- Cải thiện phần hiển thị dữ liệu ở trang `glossary.html`.
 
-Chưa thực hiện.
+### d. Bùi Lục Huyền (Tester)
 
-Sẽ bắt đầu từ phiên bản "v0.2-html" với:
+**Đã thực hiện:**
 
-- contact.html
-  
-## Ghi chú
+- Hoàn thiện kiểm tra form liên hệ.
+- Hiển thị thông báo phản hồi khi gửi form.
+- Dùng jQuery cho một số hiệu ứng hiển thị.
 
--Phiên bản v0.1 chỉ thực hiện công việc khởi tạo dự án.
+## 4. Ghi chú
 
-- Việc phát triển giao diện và chức năng sẽ được thực hiện từ phiên bản v0.2.
+- Phiên bản **v0.4-tuong-tac** tập trung vào JavaScript, JSON và jQuery.
+- Các bước kiểm thử cuối cùng và hoàn thiện sản phẩm sẽ được tiếp tục ở phiên bản **v1.0-final**.

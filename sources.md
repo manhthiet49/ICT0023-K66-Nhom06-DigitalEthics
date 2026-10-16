@@ -1,46 +1,58 @@
-## Phiên bản
+# SOURCES
 
-v0.1-y-tuong
+## 1. Tài liệu
 
-1. Tài liệu
+| Nguồn | Mục đích sử dụng |
+|-------|------------------|
+| Sách giáo khoa Tin học THPT (Chương trình GDPT 2018) | Tham khảo nội dung bài giảng và thuật ngữ. |
+| Tài liệu học phần Thiết kế Web (ICT0023) - Trường Đại học Tây Bắc | Tham khảo yêu cầu xây dựng website và tổ chức dự án. |
+| Tài liệu hướng dẫn bài tập lớn của giảng viên | Tham khảo yêu cầu về GitHub, Git, Bootstrap, CSS, JavaScript và cấu trúc website. |
+| Bootstrap Documentation | Tham khảo cách sử dụng lưới, card, navbar, button, form và responsive. |
+| MDN Web Docs | Tham khảo cú pháp HTML, CSS và JavaScript. |
 
-Dự kiến sử dụng:
+## 2. Mã tham khảo
 
-- Chương trình Giáo dục phổ thông 2018 môn Tin học.
-- SGK Tin học THPT.
-- Tài liệu học phần Thiết kế Web.
-- Bootstrap.
+**Không sử dụng mã nguồn từ repository hoặc website khác trong phiên bản v0.4-tuong-tac.**
 
-2. Mã tham khảo
+## 3. Ảnh và dữ liệu
 
-- Hiện tại chưa sử dụng mã nguồn từ bên ngoài.
+### Ảnh
 
-- Nếu có sử dụng trong các phiên bản tiếp theo, nhóm sẽ cập nhật:
+- Ảnh minh họa sử dụng trong website được lưu trong thư mục `images/`.
+- Các ảnh dùng trong giao diện được nhóm tổng hợp và sắp xếp để minh họa cho nội dung bài giảng.
 
-- Đường dẫn (URL)
-- Tác giả
-- Ngày truy cập
-- Nội dung tham khảo
-- Cách chỉnh sửa
-- Kết quả kiểm thử
+### Dữ liệu
 
-3. Ảnh và dữ liệu
+- Nội dung bài giảng, thuật ngữ và phần giới thiệu do Nhóm 6 tự biên soạn.
+- Dữ liệu câu hỏi trắc nghiệm được lưu trong data/questions.json.
+- Dữ liệu sử dụng ở phiên bản v0.4 phục vụ hiển thị tương tác trên website.
 
-Hiện tại chưa bổ sung hình ảnh và dữ liệu.
+## 4. Công cụ AI
 
-Các hình ảnh, biểu tượng và dữ liệu sẽ được cập nhật trong quá trình phát triển website.
+### Công cụ
 
-4. Công cụ AI
+- ChatGPT 
 
-Dự kiến sử dụng ChatGPT để:
+### Mục đích sử dụng
 
-- Gợi ý bố cục website.
-- Giải thích HTML, CSS, JavaScript.
-- Hỗ trợ sửa lỗi.
-- Gợi ý tối ưu giao diện.
+- Gợi ý cách tổ chức tài liệu.
+- Gợi ý cách trình bày README.md, CONTRIBUTIONS.md và SOURCES.md.
+- Hỗ trợ rà soát nội dung cho phiên bản v0.4-tuong-tac.
+- Hỗ trợ diễn đạt lại phần mô tả chức năng tương tác.
 
-Nhóm sẽ tự kiểm tra, chỉnh sửa và chịu trách nhiệm đối với toàn bộ mã nguồn được sử dụng.
+### Phần tiếp nhận
+
+- Cách sắp xếp nội dung tài liệu.
+- Cách trình bày tiến độ theo từng phiên bản.
+- Gợi ý diễn đạt ngắn gọn, rõ ràng.
+
+### Phần nhóm tự thực hiện
+
+- Thiết kế giao diện website.
+- Viết và chỉnh sửa mã HTML, CSS, JavaScript.
+- Tạo và kiểm thử dữ liệu JSON.
+- Kiểm tra tương tác và hoàn thiện nội dung trước khi đưa lên GitHub.
 
 ## Ghi chú
 
-Tài liệu tham khảo sẽ được cập nhật đầy đủ ở phiên bản "v1.0-final" theo yêu cầu của giảng viên.
+Phiên bản **v0.4-tuong-tac** tập trung vào JavaScript, JSON và jQuery. Các bước hoàn thiện cuối cùng sẽ được tiếp tục ở phiên bản **v1.0-final**.
