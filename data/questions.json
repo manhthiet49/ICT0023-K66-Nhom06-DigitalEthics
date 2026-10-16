@@ -1,102 +1,217 @@
 [
   {
-    "question": " Đạo đức số là gì?",
+    "question": "Đạo đức số là gì?",
     "answers": [
       "Sử dụng Internet có trách nhiệm và văn minh",
       "Chơi game nhiều hơn",
       "Đăng mọi thông tin lên mạng",
       "Sử dụng mạng không cần quy tắc"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "Đạo đức số là cách ứng xử đúng đắn, tôn trọng và có trách nhiệm khi dùng công nghệ số."
   },
   {
-    "question": " Hành vi nào sau đây thể hiện văn hóa trên môi trường số?",
+    "question": "Hành vi nào sau đây thể hiện văn hóa trên môi trường số?",
     "answers": [
       "Bình luận lịch sự và tôn trọng người khác",
       "Chia sẻ tin giả",
       "Xúc phạm người khác",
       "Đăng thông tin sai sự thật"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "Văn hóa số thể hiện qua cách giao tiếp lịch sự, tích cực và tôn trọng người khác."
   },
   {
-    "question": " Mã OTP dùng để làm gì?",
+    "question": "Mã OTP dùng để làm gì?",
     "answers": [
       "Xác thực tài khoản",
       "Đổi tên tài khoản",
       "Lưu mật khẩu",
       "Tăng tốc Internet"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "OTP là mã xác thực dùng một lần để tăng cường bảo mật khi đăng nhập hoặc xác minh."
   },
   {
-    "question": " Việc nào giúp bảo vệ thông tin cá nhân?",
+    "question": "Việc nào giúp bảo vệ thông tin cá nhân?",
     "answers": [
       "Chia sẻ mật khẩu cho bạn bè",
       "Sử dụng mật khẩu mạnh và xác thực hai lớp",
       "Đăng công khai số điện thoại",
       "Nhấp vào mọi liên kết lạ"
     ],
-    "correct": 1
+    "correct": 1,
+    "explanation": "Mật khẩu mạnh và 2FA giúp giảm nguy cơ bị chiếm tài khoản."
   },
   {
-    "question": " Tin giả là gì?",
+    "question": "Tin giả là gì?",
     "answers": [
       "Thông tin sai sự thật được lan truyền",
       "Thông tin từ sách giáo khoa",
       "Thông tin của giáo viên",
       "Thông tin từ cơ quan nhà nước"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "Tin giả là thông tin sai sự thật, thường lan truyền nhanh trên Internet."
   },
   {
-    "question": " Công dân số cần làm gì?",
+    "question": "Công dân số cần làm gì?",
     "answers": [
       "Tuân thủ pháp luật khi sử dụng Internet",
       "Phát tán virus",
       "Vi phạm bản quyền",
       "Đăng thông tin sai sự thật"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "Công dân số cần có trách nhiệm, tuân thủ pháp luật và tôn trọng cộng đồng."
   },
   {
-    "question": " Hành vi nào vi phạm pháp luật trên môi trường số?",
+    "question": "Hành vi nào vi phạm pháp luật trên môi trường số?",
     "answers": [
       "Chia sẻ phần mềm có bản quyền khi chưa được phép",
       "Bảo vệ dữ liệu cá nhân",
       "Tôn trọng quyền riêng tư",
       "Kiểm chứng thông tin trước khi chia sẻ"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "Sao chép hoặc chia sẻ phần mềm có bản quyền trái phép là hành vi vi phạm."
   },
   {
-    "question": " Văn hóa số thể hiện qua hành động nào?",
+    "question": "Văn hóa số thể hiện qua hành động nào?",
     "answers": [
       "Ứng xử lịch sự trên mạng",
       "Nói xấu người khác",
       "Đăng bình luận xúc phạm",
       "Lan truyền tin đồn"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "Ứng xử lịch sự trên mạng là biểu hiện của văn hóa số."
   },
   {
-    "question": " Nếu nhận được liên kết lạ, bạn nên làm gì?",
+    "question": "Nếu nhận được liên kết lạ, bạn nên làm gì?",
     "answers": [
       "Nhấp ngay để xem",
       "Chia sẻ cho mọi người",
       "Không mở và kiểm tra nguồn gửi",
       "Đăng lên mạng xã hội"
     ],
-    "correct": 2
+    "correct": 2,
+    "explanation": "Không nên mở liên kết lạ; cần kiểm tra nguồn gửi trước khi hành động."
   },
   {
-    "question": " Khi tham gia môi trường số, mỗi người cần có trách nhiệm gì?",
+    "question": "Khi tham gia môi trường số, mỗi người cần có trách nhiệm gì?",
     "answers": [
       "Tôn trọng người khác và tuân thủ pháp luật",
       "Làm mọi điều mình thích",
       "Đăng tải mọi thông tin cá nhân",
       "Bỏ qua các quy định trên Internet"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "Người dùng Internet cần có trách nhiệm với bản thân và cộng đồng."
+  },
+  {
+    "question": "Mật khẩu mạnh nên có đặc điểm nào?",
+    "answers": [
+      "Chỉ gồm chữ thường",
+      "Chỉ gồm số",
+      "Kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt",
+      "Là ngày sinh của bạn"
+    ],
+    "correct": 2,
+    "explanation": "Mật khẩu mạnh cần đủ độ phức tạp để khó bị đoán hoặc bẻ khóa."
+  },
+  {
+    "question": "Xác thực hai lớp (2FA) có tác dụng gì?",
+    "answers": [
+      "Làm máy tính chạy nhanh hơn",
+      "Tăng tính bảo mật khi đăng nhập",
+      "Giảm dung lượng bộ nhớ",
+      "Tăng tốc độ Internet"
+    ],
+    "correct": 1,
+    "explanation": "2FA thêm một lớp xác minh để bảo vệ tài khoản tốt hơn."
+  },
+  {
+    "question": "Khi phát hiện tin giả trên mạng, bạn nên làm gì?",
+    "answers": [
+      "Chia sẻ ngay",
+      "Báo cáo và không tiếp tục lan truyền",
+      "Lưu về máy",
+      "Bình luận cổ vũ"
+    ],
+    "correct": 1,
+    "explanation": "Cần ngừng lan truyền tin giả và báo cáo nếu có thể."
+  },
+  {
+    "question": "Bản quyền số nhằm bảo vệ điều gì?",
+    "answers": [
+      "Quyền sở hữu trí tuệ của tác giả",
+      "Tốc độ Internet",
+      "Dung lượng máy tính",
+      "Thiết bị điện tử"
+    ],
+    "correct": 0,
+    "explanation": "Bản quyền số bảo vệ quyền sở hữu trí tuệ đối với tác phẩm số."
+  },
+  {
+    "question": "Hành động nào sau đây là tôn trọng quyền riêng tư?",
+    "answers": [
+      "Đăng ảnh người khác khi chưa xin phép",
+      "Chia sẻ thông tin cá nhân của bạn bè",
+      "Xin phép trước khi đăng thông tin của người khác",
+      "Đọc trộm tin nhắn"
+    ],
+    "correct": 2,
+    "explanation": "Tôn trọng quyền riêng tư là phải xin phép trước khi dùng hoặc đăng thông tin của người khác."
+  },
+  {
+    "question": "Địa chỉ website an toàn thường bắt đầu bằng gì?",
+    "answers": ["ftp://", "http://", "https://", "mail://"],
+    "correct": 2,
+    "explanation": "HTTPS giúp tăng bảo mật khi truy cập website."
+  },
+  {
+    "question": "Virus máy tính có thể gây ra điều gì?",
+    "answers": [
+      "Bảo vệ dữ liệu",
+      "Làm hỏng dữ liệu và đánh cắp thông tin",
+      "Tăng tốc máy tính",
+      "Tự động cập nhật phần mềm"
+    ],
+    "correct": 1,
+    "explanation": "Virus có thể làm hỏng dữ liệu, gây mất an toàn cho thiết bị."
+  },
+  {
+    "question": "Phần mềm diệt virus có tác dụng gì?",
+    "answers": [
+      "Xóa toàn bộ dữ liệu",
+      "Bảo vệ máy tính khỏi mã độc",
+      "Làm tăng dung lượng ổ cứng",
+      "Tăng tốc Internet"
+    ],
+    "correct": 1,
+    "explanation": "Phần mềm diệt virus giúp phát hiện và ngăn chặn mã độc."
+  },
+  {
+    "question": "Hành vi nào thể hiện trách nhiệm của công dân số?",
+    "answers": [
+      "Tôn trọng người khác khi giao tiếp trực tuyến",
+      "Phát tán tin giả",
+      "Đăng thông tin sai sự thật",
+      "Vi phạm bản quyền"
+    ],
+    "correct": 0,
+    "explanation": "Tôn trọng người khác là biểu hiện quan trọng của công dân số."
+  },
+  {
+    "question": "Khi nhận được email yêu cầu cung cấp mật khẩu, bạn nên làm gì?",
+    "answers": [
+      "Gửi mật khẩu ngay",
+      "Bỏ qua hoặc xác minh nguồn gửi trước khi phản hồi",
+      "Đăng mật khẩu lên mạng xã hội",
+      "Chuyển tiếp cho mọi người"
+    ],
+    "correct": 1,
+    "explanation": "Không bao giờ cung cấp mật khẩu qua email nếu chưa xác minh nguồn gửi."
   }
 ]
