@@ -10,32 +10,28 @@
       name="description"
       content="Liên hệ và gửi phản hồi về Website bài giảng Tin học THPT - Chủ đề D."
     />
-
     <meta
       name="keywords"
-      content="Tin học THPT, Chủ đề D, Liên hệ, Phản hồi, Công dân số"
+      content="Tin học THPT, Chủ đề D, Đạo đức số, Pháp luật số, Công dân số, Liên hệ"
     />
-
     <meta name="author" content="Nhóm 6 - Trường Đại học Tây Bắc" />
+    <meta name="theme-color" content="#0d6efd" />
 
     <link rel="icon" href="images/logo.png" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow"
+      class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top"
     >
       <div class="container">
         <a
@@ -44,17 +40,12 @@
         >
           <img
             src="images/logo.png"
-            width="45"
-            height="45"
-            class="rounded-circle me-2"
+            width="42"
+            height="42"
+            class="rounded-circle me-2 border border-2 border-white"
             alt="Logo"
           />
-          <div>
-            <div>Chủ đề D</div>
-            <small class="text-white-50">
-              Đạo đức, pháp luật và văn hóa trong môi trường số
-            </small>
-          </div>
+          <span>Chủ đề D</span>
         </a>
 
         <button
@@ -62,6 +53,9 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Mở menu điều hướng"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -88,25 +82,39 @@
       </div>
     </nav>
 
-    <header class="hero py-5">
-      <div class="container">
+    <header class="hero-section text-white">
+      <div class="container py-5">
         <div class="row align-items-center g-5">
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold">Liên hệ và phản hồi</h1>
+            <span class="badge bg-warning text-dark px-3 py-2 mb-3">
+              Website bài giảng Tin học THPT
+            </span>
 
-            <p class="lead mt-3">
-              Chúng tôi luôn lắng nghe ý kiến của người học để cải thiện Website
-              bài giảng Tin học THPT - Chủ đề D:
+            <h1 class="display-4 fw-bold mb-4">Liên hệ và phản hồi</h1>
+
+            <p class="lead mb-4">
+              Mọi ý kiến đóng góp của bạn sẽ giúp nhóm cải thiện chất lượng
+              Website bài giảng Tin học THPT Chủ đề D:
               <strong
                 >Đạo đức, pháp luật và văn hóa trong môi trường số.</strong
               >
+              Chúng tôi luôn sẵn sàng lắng nghe và tiếp thu mọi góp ý.
             </p>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#contactSection" class="btn btn-warning btn-lg">
+                <i class="bi bi-chat-left-text me-2"></i> Gửi phản hồi
+              </a>
+              <a href="#team" class="btn btn-outline-light btn-lg">
+                <i class="bi bi-people-fill me-2"></i> Nhóm thực hiện
+              </a>
+            </div>
           </div>
 
-          <div class="col-lg-6 text-center mt-4 mt-lg-0">
+          <div class="col-lg-6 text-center">
             <img
               src="images/banner.jpg"
-              class="img-fluid rounded shadow"
+              class="img-fluid rounded-4 shadow-lg"
               alt="Liên hệ"
             />
           </div>
@@ -114,91 +122,136 @@
       </div>
     </header>
 
-    <section class="py-5">
+    <section id="contactSection" class="py-5">
       <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Gửi phản hồi</h2>
+          <p class="text-muted content-width mx-auto">
+            Nếu bạn có góp ý về nội dung bài học, giao diện website hoặc phát
+            hiện lỗi trong quá trình sử dụng, hãy gửi phản hồi để nhóm tiếp tục
+            hoàn thiện website.
+          </p>
+        </div>
+
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="card shadow-lg border-0">
               <div class="card-header bg-primary text-white">
-                <h3 class="mb-0">
-                  <i class="bi bi-chat-left-text-fill"></i>
-                  Phiếu góp ý
-                </h3>
+                <h4 class="mb-0">
+                  <i class="bi bi-envelope-paper-fill me-2"></i> Phiếu góp ý
+                </h4>
               </div>
 
-              <div class="card-body">
-                <form id="contactForm">
+              <div class="card-body p-4">
+                <form id="contactForm" novalidate>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="name" class="form-label fw-semibold"
+                        >Họ và tên</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Nhập họ và tên"
+                      />
+                      <small id="nameError" class="text-danger"></small>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                      <label for="email" class="form-label fw-semibold"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="example@gmail.com"
+                      />
+                      <small id="emailError" class="text-danger"></small>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="role" class="form-label fw-semibold"
+                        >Bạn là</label
+                      >
+                      <select id="role" class="form-select">
+                        <option value="">-- Chọn đối tượng --</option>
+                        <option>Học sinh THPT</option>
+                        <option>Sinh viên</option>
+                        <option>Giáo viên</option>
+                        <option>Phụ huynh</option>
+                        <option>Khác</option>
+                      </select>
+                      <small id="roleError" class="text-danger"></small>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                      <label for="rating" class="form-label fw-semibold">
+                        Mức độ hài lòng
+                      </label>
+                      <select id="rating" class="form-select">
+                        <option value="">-- Chọn đánh giá --</option>
+                        <option>⭐⭐⭐⭐⭐ Rất hài lòng</option>
+                        <option>⭐⭐⭐⭐ Hài lòng</option>
+                        <option>⭐⭐⭐ Bình thường</option>
+                        <option>⭐⭐ Chưa hài lòng</option>
+                        <option>⭐ Cần cải thiện</option>
+                      </select>
+                      <small id="ratingError" class="text-danger"></small>
+                    </div>
+                  </div>
+
                   <div class="mb-3">
-                    <label for="name" class="form-label">Họ và tên</label>
+                    <label for="subject" class="form-label fw-semibold"
+                      >Chủ đề góp ý</label
+                    >
                     <input
                       type="text"
-                      id="name"
+                      id="subject"
                       class="form-control"
-                      placeholder="Nhập họ và tên"
+                      placeholder="Ví dụ: Nội dung bài học, giao diện, chức năng..."
                     />
-                    <small id="nameError" class="text-danger"></small>
+                    <small id="subjectError" class="text-danger"></small>
                   </div>
 
-                  <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input
-                      type="email"
-                      id="email"
-                      class="form-control"
-                      placeholder="example@gmail.com"
-                    />
-                    <small id="emailError" class="text-danger"></small>
-                  </div>
-
-                  <div class="mb-3">
-                    <label for="role" class="form-label">Bạn là</label>
-                    <select id="role" class="form-select">
-                      <option value="">-- Chọn --</option>
-                      <option>Học sinh</option>
-                      <option>Sinh viên</option>
-                      <option>Giáo viên</option>
-                      <option>Khác</option>
-                    </select>
-                    <small id="roleError" class="text-danger"></small>
-                  </div>
-
-                  <div class="mb-3">
-                    <label for="rating" class="form-label"
-                      >Mức độ hài lòng</label
-                    >
-                    <select id="rating" class="form-select">
-                      <option value="">-- Đánh giá --</option>
-                      <option>⭐⭐⭐⭐⭐ Rất hài lòng</option>
-                      <option>⭐⭐⭐⭐ Hài lòng</option>
-                      <option>⭐⭐⭐ Bình thường</option>
-                      <option>⭐⭐ Chưa hài lòng</option>
-                      <option>⭐ Cần cải thiện</option>
-                    </select>
-                    <small id="ratingError" class="text-danger"></small>
-                  </div>
-
-                  <div class="mb-3">
-                    <label for="message" class="form-label"
+                  <div class="mb-4">
+                    <label for="message" class="form-label fw-semibold"
                       >Nội dung góp ý</label
                     >
                     <textarea
                       id="message"
-                      class="form-control"
                       rows="6"
-                      placeholder="Nhập ý kiến của bạn..."
+                      class="form-control"
+                      placeholder="Nhập nội dung góp ý của bạn..."
                     ></textarea>
                     <small id="messageError" class="text-danger"></small>
                   </div>
 
+                  <div class="form-check mb-4">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="agree"
+                    />
+                    <label class="form-check-label" for="agree">
+                      Tôi đồng ý để nhóm sử dụng phản hồi nhằm cải thiện website
+                      và cam kết các thông tin trên là chính xác.
+                    </label>
+                    <small id="agreeError" class="text-danger d-block"></small>
+                  </div>
+
                   <div class="text-center">
                     <button type="submit" class="btn btn-primary btn-lg me-2">
-                      <i class="bi bi-send-fill"></i>
-                      Gửi phản hồi
+                      <i class="bi bi-send-fill me-2"></i> Gửi phản hồi
                     </button>
-
-                    <button type="reset" class="btn btn-secondary btn-lg">
-                      <i class="bi bi-arrow-clockwise"></i>
-                      Làm mới
+                    <button
+                      type="reset"
+                      class="btn btn-outline-secondary btn-lg"
+                    >
+                      <i class="bi bi-arrow-clockwise me-2"></i> Làm mới
                     </button>
                   </div>
                 </form>
@@ -207,9 +260,10 @@
                   id="successMessage"
                   class="alert alert-success mt-4 d-none"
                 >
-                  <i class="bi bi-check-circle-fill"></i>
-                  Cảm ơn bạn đã gửi phản hồi. Nhóm 6 sẽ xem xét ý kiến để cải
-                  thiện website.
+                  <i class="bi bi-check-circle-fill me-2"></i>
+                  Cảm ơn bạn đã gửi phản hồi. Nhóm 6 sẽ tiếp nhận ý kiến và sử
+                  dụng những góp ý phù hợp để tiếp tục hoàn thiện Website bài
+                  giảng Tin học THPT Chủ đề D.
                 </div>
               </div>
             </div>
@@ -218,33 +272,30 @@
       </div>
     </section>
 
-    <section class="bg-light py-5">
+    <section class="py-5 bg-light">
       <div class="container">
         <div class="row g-4">
           <div class="col-lg-6">
             <div class="card shadow h-100 border-0">
-              <div class="card-body">
+              <div class="card-body contact-info">
                 <h2 class="text-primary mb-4">
-                  <i class="bi bi-person-lines-fill"></i>
-                  Thông tin liên hệ
+                  <i class="bi bi-person-lines-fill me-2"></i> Thông tin liên hệ
                 </h2>
 
                 <p>
                   <i class="bi bi-building text-primary"></i>
-                  <strong>Đơn vị:</strong>
-                  Nhóm 6 - Trường Đại học Tây Bắc
+                  <strong>Đơn vị:</strong> Nhóm 6 - Trường Đại học Tây Bắc
                 </p>
 
                 <p>
                   <i class="bi bi-geo-alt-fill text-danger"></i>
-                  <strong>Địa chỉ:</strong>
-                  Trường Đại học Tây Bắc, Thành phố Sơn La
+                  <strong>Địa chỉ:</strong> Trường Đại học Tây Bắc, Thành phố
+                  Sơn La
                 </p>
 
                 <p>
                   <i class="bi bi-envelope-fill text-success"></i>
-                  <strong>Email:</strong>
-                  thietdm.k66sptin@utb.edu.vn
+                  <strong>Email:</strong> thietdm.k66sptin@utb.edu.vn
                 </p>
 
                 <p>
@@ -253,6 +304,11 @@
                   Thứ Hai - Thứ Sáu<br />
                   07:30 - 17:00
                 </p>
+
+                <p class="mb-0">
+                  <i class="bi bi-book-fill text-info"></i>
+                  <strong>Học phần:</strong> Thiết kế Website
+                </p>
               </div>
             </div>
           </div>
@@ -261,17 +317,14 @@
             <div class="card shadow h-100 border-0">
               <div class="card-body">
                 <h2 class="text-primary mb-4">
-                  <i class="bi bi-geo-alt"></i>
-                  Vị trí
+                  <i class="bi bi-geo-alt me-2"></i> Vị trí
                 </h2>
-
                 <div class="ratio ratio-16x9">
                   <iframe
                     src="https://www.google.com/maps?q=Trường%20Đại%20học%20Tây%20Bắc&output=embed"
                     loading="lazy"
                     allowfullscreen
-                  >
-                  </iframe>
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -280,73 +333,106 @@
       </div>
     </section>
 
-    <section class="py-5">
+    <section id="team" class="py-5">
       <div class="container">
-        <h2 class="text-center text-primary fw-bold mb-5">Nhóm thực hiện</h2>
+        <div class="text-center mb-5">
+          <span class="badge bg-success px-3 py-2">Nhóm thực hiện</span>
+          <h2 class="fw-bold mt-3">Thành viên Nhóm 6</h2>
+          <p class="text-muted">
+            Website được xây dựng bởi sinh viên ngành Sư phạm Tin học, Trường
+            Đại học Tây Bắc.
+          </p>
+        </div>
 
-        <div class="row g-4 text-center">
-          <div class="col-md-3">
-            <div class="card h-100 shadow-sm">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center">
               <div class="card-body">
-                <i class="bi bi-person-circle display-3 text-primary"></i>
-                <h5 class="mt-3">Đinh Mạnh Thiết</h5>
-                <p class="text-muted">Trưởng nhóm</p>
-                <p>
-  - Điều phối công việc toàn nhóm
-  - Khởi tạo cấu trúc dự án
-  - Xây dựng và hoàn thiện JavaScript
-  - Kiểm tra tính đồng bộ giữa các trang
-  - Tổng hợp và hoàn thiện phiên bản cuối
-                </p>
+                <img
+                  src="images/thiet.jpg"
+                  class="rounded-circle mb-3 object-fit-cover"
+                  width="120"
+                  height="120"
+                  alt="Đinh Mạnh Thiết"
+                />
+                <h5 class="fw-bold">Đinh Mạnh Thiết</h5>
+                <p class="text-primary mb-2">Coordinator</p>
+                <ul class="list-unstyled text-start small mb-0">
+                  <li>✔ Điều phối dự án</li>
+                  <li>✔ Xây dựng JavaScript</li>
+                  <li>✔ Kiểm thử toàn bộ website</li>
+                  <li>✔ Hoàn thiện sản phẩm cuối</li>
+                  <li>✔ Thiết kế giao diện CSS</li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
-            <div class="card h-100 shadow-sm">
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center">
               <div class="card-body">
-                <i class="bi bi-person-circle display-3 text-success"></i>
-                <h5 class="mt-3">Bùi Lục Huyền</h5>
-                <p class="text-muted">Thành viên</p>
-                <p>
-  - Kiểm thử giao diện
-  - Kiểm tra liên kết các trang
-  - Phát hiện lỗi hiển thị và lỗi tương tác
-  - Hỗ trợ hoàn thiện bản cuối
-                </p>
+                <img
+                  src="images/huyen.jpg"
+                  class="rounded-circle mb-3 object-fit-cover"
+                  width="120"
+                  height="120"
+                  alt="Bùi Lục Huyền"
+                />
+                <h5 class="fw-bold">Bùi Lục Huyền</h5>
+                <p class="text-success mb-2">Tester</p>
+                <ul class="list-unstyled text-start small mb-0">
+                  <li>✔ Kiểm thử giao diện</li>
+                  <li>✔ Kiểm tra liên kết</li>
+                  <li>✔ Phát hiện lỗi hiển thị</li>
+                  <li>✔ Hỗ trợ chỉnh sửa</li>
+                  <li>✔ Góp ý trải nghiệm</li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
-            <div class="card h-100 shadow-sm">
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center">
               <div class="card-body">
-                <i class="bi bi-person-circle display-3 text-warning"></i>
-                <h5 class="mt-3">Nguyễn Quỳnh Trang</h5>
-                <p class="text-muted">Thành viên</p>
-                <p>
-  - Thu thập và sắp xếp nội dung bài học
-  - Rà soát thuật ngữ
-  - Kiểm tra tính chính xác của dữ liệu
-  - Hỗ trợ hoàn thiện nội dung các trang
-                </p>
+                <img
+                  src="images/trang.jpg"
+                  class="rounded-circle mb-3 object-fit-cover"
+                  width="120"
+                  height="120"
+                  alt="Nguyễn Quỳnh Trang"
+                />
+                <h5 class="fw-bold">Nguyễn Quỳnh Trang</h5>
+                <p class="text-warning mb-2">Navigator</p>
+                <ul class="list-unstyled text-start small mb-0">
+                  <li>✔ Thu thập nội dung</li>
+                  <li>✔ Kiểm tra dữ liệu</li>
+                  <li>✔ Rà soát thuật ngữ</li>
+                  <li>✔ Hoàn thiện nội dung</li>
+                  <li>✔ Chỉnh sửa JSON</li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
-            <div class="card h-100 shadow-sm">
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center">
               <div class="card-body">
-                <i class="bi bi-person-circle display-3 text-danger"></i>
-                <h5 class="mt-3">Phạm Thị Thúy</h5>
-                <p class="text-muted">Thành viên</p>
-                <p>
-  - Phát triển giao diện HTML
-  - Chỉnh sửa bố cục và trình bày nội dung
-  - Hỗ trợ hoàn thiện các trang chính của website
-  - Phối hợp sửa lỗi hiển thị trên nhiều kích thước màn hình
-
-                </p>
+                <img
+                  src="images/thuy.jpg"
+                  class="rounded-circle mb-3 object-fit-cover"
+                  width="120"
+                  height="120"
+                  alt="Phạm Thị Thúy"
+                />
+                <h5 class="fw-bold">Phạm Thị Thúy</h5>
+                <p class="text-danger mb-2">Driver</p>
+                <ul class="list-unstyled text-start small mb-0">
+                  <li>✔ Thiết kế HTML</li>
+                  <li>✔ Hoàn thiện giao diện</li>
+                  <li>✔ Chỉnh sửa bố cục</li>
+                  <li>✔ Hỗ trợ responsive</li>
+                  <li>✔ Kiểm tra hiển thị</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -354,48 +440,14 @@
       </div>
     </section>
 
-    <section class="bg-light py-5">
+    <section class="py-5 bg-light">
       <div class="container">
-        <div class="card border-success shadow">
-          <div class="card-header bg-success text-white">
-            <h3 class="mb-0">
-              <i class="bi bi-shield-lock-fill"></i>
-              Cam kết bảo mật thông tin
-            </h3>
-          </div>
-
-          <div class="card-body">
-            <p>
-              Chúng tôi cam kết bảo mật toàn bộ thông tin người dùng gửi thông
-              qua biểu mẫu liên hệ trên website.
-            </p>
-
-            <ul class="list-group">
-              <li class="list-group-item">
-                ✔ Không chia sẻ thông tin cho bên thứ ba.
-              </li>
-              <li class="list-group-item">
-                ✔ Chỉ sử dụng phản hồi để cải thiện website.
-              </li>
-              <li class="list-group-item">
-                ✔ Bảo vệ quyền riêng tư của người dùng.
-              </li>
-              <li class="list-group-item">
-                ✔ Tuân thủ quy định về bảo vệ dữ liệu cá nhân.
-              </li>
-            </ul>
-          </div>
+        <div class="text-center mb-5">
+          <span class="badge bg-warning text-dark px-3 py-2">Hỗ trợ</span>
+          <h2 class="fw-bold mt-3">Câu hỏi thường gặp</h2>
         </div>
-      </div>
-    </section>
 
-    <section class="py-5">
-      <div class="container">
-        <h2 class="text-center text-primary fw-bold mb-5">
-          Câu hỏi thường gặp
-        </h2>
-
-        <div class="accordion" id="faqContact">
+        <div class="accordion shadow-sm" id="faqAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
@@ -403,17 +455,17 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#faq1"
               >
-                Tôi có thể gửi nhiều phản hồi không?
+                Website này dành cho ai?
               </button>
             </h2>
             <div
               id="faq1"
               class="accordion-collapse collapse show"
-              data-bs-parent="#faqContact"
+              data-bs-parent="#faqAccordion"
             >
               <div class="accordion-body">
-                Có. Bạn có thể gửi nhiều ý kiến khác nhau để giúp nhóm hoàn
-                thiện website.
+                Website phục vụ học sinh THPT, giáo viên và sinh viên tham khảo
+                chủ đề Đạo đức, pháp luật và văn hóa trong môi trường số.
               </div>
             </div>
           </div>
@@ -425,17 +477,16 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#faq2"
               >
-                Thông tin của tôi có được bảo mật không?
+                Tôi có thể gửi nhiều góp ý không?
               </button>
             </h2>
             <div
               id="faq2"
               class="accordion-collapse collapse"
-              data-bs-parent="#faqContact"
+              data-bs-parent="#faqAccordion"
             >
               <div class="accordion-body">
-                Có. Mọi thông tin chỉ được sử dụng để tiếp nhận góp ý và không
-                chia sẻ cho bên thứ ba.
+                Có. Bạn có thể gửi nhiều góp ý để giúp nhóm cải thiện website.
               </div>
             </div>
           </div>
@@ -447,17 +498,17 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#faq3"
               >
-                Khi nào phản hồi được xem xét?
+                Thông tin của tôi có được bảo mật không?
               </button>
             </h2>
             <div
               id="faq3"
               class="accordion-collapse collapse"
-              data-bs-parent="#faqContact"
+              data-bs-parent="#faqAccordion"
             >
               <div class="accordion-body">
-                Nhóm sẽ tổng hợp và cập nhật website trong các phiên bản tiếp
-                theo dựa trên những góp ý nhận được.
+                Mọi thông tin chỉ được sử dụng để tiếp nhận phản hồi và không
+                chia sẻ cho bên thứ ba.
               </div>
             </div>
           </div>
@@ -465,60 +516,91 @@
       </div>
     </section>
 
-    <section class="py-5 bg-primary text-white text-center">
+    <section class="py-5">
       <div class="container">
-        <h2 class="fw-bold">Cảm ơn bạn đã ghé thăm Website</h2>
-
-        <p class="lead mt-3">
-          Mọi ý kiến đóng góp sẽ giúp Website bài giảng ngày càng hoàn thiện.
-        </p>
-
-        <a href="index.html" class="btn btn-warning btn-lg">
-          <i class="bi bi-house-door-fill"></i>
-          Quay về Trang chủ
-        </a>
+        <div class="card border-success shadow-sm">
+          <div class="card-header bg-success text-white">
+            <h3 class="mb-0">
+              <i class="bi bi-shield-check me-2"></i> Cam kết của Nhóm 6
+            </h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                ✔ Bảo mật mọi thông tin người dùng.
+              </li>
+              <li class="list-group-item">
+                ✔ Tiếp nhận và phản hồi các góp ý nghiêm túc.
+              </li>
+              <li class="list-group-item">
+                ✔ Thường xuyên cập nhật nội dung bài giảng.
+              </li>
+              <li class="list-group-item">
+                ✔ Xây dựng môi trường học tập số an toàn, thân thiện.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer class="bg-dark text-white py-5">
+    <section class="py-5 bg-primary text-white text-center">
       <div class="container">
-        <div class="row gy-4">
+        <h2 class="fw-bold mb-3">Cảm ơn bạn đã ghé thăm Website</h2>
+        <p class="lead mb-4">
+          Những ý kiến đóng góp của bạn sẽ giúp Website bài giảng ngày càng hoàn
+          thiện, mang đến trải nghiệm học tập tốt hơn cho học sinh THPT.
+        </p>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+          <a href="index.html" class="btn btn-warning btn-lg">
+            <i class="bi bi-house-door-fill me-2"></i> Trang chủ
+          </a>
+          <a href="lesson.html" class="btn btn-outline-light btn-lg">
+            <i class="bi bi-book-fill me-2"></i> Tiếp tục học
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row g-4">
           <div class="col-lg-4">
-            <h4>
+            <h4 class="d-flex align-items-center">
               <img
                 src="images/logo.png"
-                width="40"
+                width="42"
+                height="42"
                 class="rounded-circle me-2"
                 alt="Logo"
               />
               Chủ đề D
             </h4>
-
-            <p>
+            <p class="mt-3">
               Website bài giảng Tin học THPT<br />
-              Đạo đức, pháp luật và văn hóa trong môi trường số.
+              Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số.
             </p>
           </div>
 
           <div class="col-lg-4">
             <h5>Điều hướng</h5>
-            <ul class="list-unstyled">
-              <li>
+            <ul class="list-unstyled mt-3">
+              <li class="mb-2">
                 <a href="index.html" class="text-white text-decoration-none"
                   >Trang chủ</a
                 >
               </li>
-              <li>
+              <li class="mb-2">
                 <a href="lesson.html" class="text-white text-decoration-none"
                   >Bài giảng</a
                 >
               </li>
-              <li>
+              <li class="mb-2">
                 <a href="quiz.html" class="text-white text-decoration-none"
                   >Ôn tập</a
                 >
               </li>
-              <li>
+              <li class="mb-2">
                 <a href="glossary.html" class="text-white text-decoration-none"
                   >Thuật ngữ</a
                 >
@@ -533,27 +615,22 @@
 
           <div class="col-lg-4">
             <h5>Thông tin nhóm</h5>
-            <p>
-              <i class="bi bi-building"></i>
-              Nhóm 6<br />
-              Trường Đại học Tây Bắc
+            <p class="mt-3">
+              <i class="bi bi-building me-2"></i> Nhóm 6 - Trường Đại học Tây
+              Bắc
             </p>
             <p>
-              <i class="bi bi-envelope-fill"></i>
-              thietdm.k66sptin@utb.edu.vn
+              <i class="bi bi-envelope-fill me-2"></i>
+              nhom06@utb.edu.vn
             </p>
-            <p>
-              <i class="bi bi-geo-alt-fill"></i>
-              Thành phố Sơn La
-            </p>
+            <p><i class="bi bi-geo-alt-fill me-2"></i> Thành phố Sơn La</p>
           </div>
         </div>
 
-        <hr />
-
+        <hr class="border-secondary my-4" />
         <div class="text-center">
           <p class="mb-1">© 2026 Nhóm 6 - Website bài giảng Tin học THPT</p>
-          <small>
+          <small class="text-white-50">
             Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số.
           </small>
         </div>
@@ -562,15 +639,16 @@
 
     <button
       id="topBtn"
-      class="btn btn-primary rounded-circle shadow"
+      class="btn btn-primary rounded-circle d-flex align-items-center justify-content-center shadow"
+      aria-label="Cuộn lên đầu trang"
       style="
+        display: none;
         position: fixed;
         bottom: 20px;
         right: 20px;
-        display: none;
-        z-index: 999;
         width: 55px;
         height: 55px;
+        z-index: 999;
       "
     >
       <i class="bi bi-arrow-up"></i>
