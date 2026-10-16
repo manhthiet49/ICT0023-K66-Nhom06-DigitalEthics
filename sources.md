@@ -1,58 +1,91 @@
-# SOURCES
+# SOURCES.md
 
 ## 1. Tài liệu
 
-| Nguồn | Mục đích sử dụng |
-|-------|------------------|
-| Sách giáo khoa Tin học THPT (Chương trình GDPT 2018) | Tham khảo nội dung bài giảng và thuật ngữ. |
-| Tài liệu học phần Thiết kế Web (ICT0023) - Trường Đại học Tây Bắc | Tham khảo yêu cầu xây dựng website và tổ chức dự án. |
-| Tài liệu hướng dẫn bài tập lớn của giảng viên | Tham khảo yêu cầu về GitHub, Git, Bootstrap, CSS, JavaScript và cấu trúc website. |
-| Bootstrap Documentation | Tham khảo cách sử dụng lưới, card, navbar, button, form và responsive. |
-| MDN Web Docs | Tham khảo cú pháp HTML, CSS và JavaScript. |
+1. Bootstrap 5 Documentation  
+   - Nội dung sử dụng: grid hệ thống lưới, navbar, card, accordion, alert, form, progress, badge, breadcrumb, utilities.  
+   - Tác giả: Bootstrap Team  
+   - Ngày truy cập: 16/10/2026  
+   - Mục đích: tham khảo cấu trúc giao diện responsive và thành phần UI.
+
+2. Bootstrap Icons Documentation  
+   - Nội dung sử dụng: biểu tượng cho menu, nút, card, FAQ, footer và form.  
+   - Tác giả: Bootstrap Team  
+   - Ngày truy cập: 16/10/2026  
+   - Mục đích: chọn icon phù hợp cho các phần nội dung và thao tác.
+
+3. MDN Web Docs  
+   - Nội dung sử dụng: `addEventListener`, `fetch`, `DOMContentLoaded`, `querySelector`, `classList`, xử lý form và DOM.  
+   - Tác giả: Mozilla  
+   - Ngày truy cập: 16/10/2026  
+   - Mục đích: tham khảo cách dùng JavaScript và HTML chuẩn.
+
+4. jQuery Documentation  
+   - Nội dung sử dụng: `on()`, `val()`, `addClass()`, `removeClass()`, `hide()`, `show()` trong phần tìm kiếm thuật ngữ.  
+   - Tác giả: jQuery Foundation  
+   - Ngày truy cập: 16/10/2026  
+   - Mục đích: tham khảo cách viết chức năng tìm kiếm gọn và dễ hiểu.
 
 ## 2. Mã tham khảo
 
-**Không sử dụng mã nguồn từ repository hoặc website khác trong phiên bản v0.4-tuong-tac.**
+1. Bootstrap component examples  
+   - URL: https://getbootstrap.com/docs/5.3/components/  
+   - Tác giả: Bootstrap Team  
+   - Ngày truy cập: 16/10/2026  
+   - Phần đã dùng: navbar, card, accordion, alert, form, progress, breadcrumb  
+   - Cách chỉnh sửa: tùy biến lại màu sắc, bố cục, thêm nội dung riêng của nhóm  
+   - Cách kiểm thử: mở từng trang trên desktop và điện thoại, kiểm tra hiển thị và hoạt động nút
 
-## 3. Ảnh và dữ liệu
+2. jQuery API reference  
+   - URL: https://api.jquery.com/  
+   - Tác giả: OpenJS Foundation  
+   - Ngày truy cập: 16/10/2026  
+   - Phần đã dùng: xử lý sự kiện nhập liệu và hiệu ứng cho ô tìm kiếm thuật ngữ  
+   - Cách chỉnh sửa: chỉ dùng cho một chức năng có ý nghĩa, không sao chép nguyên mẫu  
+   - Cách kiểm thử: nhập từ khóa ở trang thuật ngữ và kiểm tra kết quả lọc
 
-### Ảnh
+3. MDN fetch() guide  
+   - URL: https://developer.mozilla.org/  
+   - Tác giả: Mozilla  
+   - Ngày truy cập: 16/10/2026  
+   - Phần đã dùng: tải dữ liệu câu hỏi từ `data/questions.json`  
+   - Cách chỉnh sửa: thêm xử lý lỗi, kiểm tra dữ liệu hợp lệ, cập nhật giao diện kết quả  
+   - Cách kiểm thử: đổi tạm đường dẫn JSON để kiểm tra thông báo lỗi
 
-- Ảnh minh họa sử dụng trong website được lưu trong thư mục `images/`.
-- Các ảnh dùng trong giao diện được nhóm tổng hợp và sắp xếp để minh họa cho nội dung bài giảng.
+## 3. Ảnh / dữ liệu
 
-### Dữ liệu
+1. Ảnh minh họa trong thư mục `images/`
+   - `logo.png`
+   - `banner.jpg`
+   - `security.jpg`
+   - `ethics.jpg`
+   - `citizen.jpg`
+   - `cyberbullying.jpg`
+   - Mục đích: minh họa nội dung bài giảng, trang chủ và trang liên hệ
+   - Nguồn: tài nguyên sử dụng trong dự án của nhóm; nếu thay bằng ảnh ngoài, cần ghi lại URL và giấy phép sử dụng tương ứng
 
-- Nội dung bài giảng, thuật ngữ và phần giới thiệu do Nhóm 6 tự biên soạn.
-- Dữ liệu câu hỏi trắc nghiệm được lưu trong data/questions.json.
-- Dữ liệu sử dụng ở phiên bản v0.4 phục vụ hiển thị tương tác trên website.
+2. Dữ liệu câu hỏi trắc nghiệm
+   - File: `data/questions.json`
+   - Mục đích: tạo bộ câu hỏi ôn tập và chấm điểm tự động
+   - Nguồn: nhóm tự biên soạn dựa trên nội dung Chủ đề D
+   - Ghi chú: dữ liệu dùng cục bộ trong trình duyệt, không gửi lên máy chủ
+
+3. Nội dung bài học và thuật ngữ
+   - File: `index.html`, `lesson.html`, `quiz.html`, `glossary.html`, `contact.html`
+   - Mục đích: cung cấp nội dung chính của website
+   - Nguồn: nhóm tự biên soạn theo Chủ đề D và kiến thức học phần
 
 ## 4. Công cụ AI
 
-### Công cụ
+1. ChatGPT  
+   - Ngày sử dụng: 16/10/2026  
+   - Prompt chính: hỗ trợ viết README.md, CONTRIBUTIONS.md, SOURCES.md; rà soát cấu trúc website; gợi ý sửa lỗi HTML/CSS/JavaScript; chỉnh nội dung khớp với bài nộp cuối cùng  
+   - Phần tiếp nhận: hỗ trợ bố cục tài liệu, cách trình bày, gợi ý kỹ thuật kiểm thử, rà soát tính đồng bộ giữa các file  
+   - Phần loại bỏ: các phần không khớp với code thực tế hoặc không phù hợp yêu cầu của giảng viên  
+   - Cách kiểm chứng: đối chiếu lại với mã nguồn, chạy thử website trên trình duyệt và kiểm tra từng chức năng
 
-- ChatGPT 
+## 5. Ghi chú chung
 
-### Mục đích sử dụng
-
-- Gợi ý cách tổ chức tài liệu.
-- Gợi ý cách trình bày README.md, CONTRIBUTIONS.md và SOURCES.md.
-- Hỗ trợ rà soát nội dung cho phiên bản v0.4-tuong-tac.
-- Hỗ trợ diễn đạt lại phần mô tả chức năng tương tác.
-
-### Phần tiếp nhận
-
-- Cách sắp xếp nội dung tài liệu.
-- Cách trình bày tiến độ theo từng phiên bản.
-- Gợi ý diễn đạt ngắn gọn, rõ ràng.
-
-### Phần nhóm tự thực hiện
-
-- Thiết kế giao diện website.
-- Viết và chỉnh sửa mã HTML, CSS, JavaScript.
-- Tạo và kiểm thử dữ liệu JSON.
-- Kiểm tra tương tác và hoàn thiện nội dung trước khi đưa lên GitHub.
-
-## Ghi chú
-
-Phiên bản **v0.4-tuong-tac** tập trung vào JavaScript, JSON và jQuery. Các bước hoàn thiện cuối cùng sẽ được tiếp tục ở phiên bản **v1.0-final**.
+- Không sử dụng dữ liệu cá nhân thật của học sinh.
+- Không dùng backend, cơ sở dữ liệu, đăng nhập hay lưu trữ dữ liệu người dùng.
+- Tất cả dữ liệu phản hồi và kết quả ôn tập chỉ tồn tại trong phiên đang mở.
