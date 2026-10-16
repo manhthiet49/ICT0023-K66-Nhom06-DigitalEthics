@@ -4,15 +4,13 @@
 
 ## Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số
 
-
 ## 1. Giới thiệu
 
 Đây là dự án của **Nhóm 6** thuộc học phần **Thiết kế Web (ICT0023)** - Trường Đại học Tây Bắc.
 
 Website được xây dựng nhằm hỗ trợ giáo viên và học sinh THPT học tập **Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số**. Website hoạt động hoàn toàn trên trình duyệt, không sử dụng cơ sở dữ liệu hoặc backend.
 
-Phiên bản hiện tại là **v0.4-tuong-tac**, tập trung vào các chức năng tương tác bằng JavaScript, jQuery và dữ liệu JSON.
-
+Phiên bản hiện tại là **v1.0-final**, là bản hoàn chỉnh cuối cùng của dự án, tập trung vào nội dung, giao diện, tương tác bằng JavaScript, jQuery và dữ liệu JSON.
 
 ## 2. Mục tiêu
 
@@ -25,16 +23,16 @@ Phiên bản hiện tại là **v0.4-tuong-tac**, tập trung vào các chức n
 
 ## 3. Đối tượng sử dụng
 
-- Giáo viên THPT.
-- Học sinh THPT.
+- Giáo viên THPT
+- Học sinh THPT
 
 ## 4. Cấu trúc website
 
-- Trang chủ (index.html)
-- Bài giảng (lesson.html)
-- Ôn tập (quiz.html)
-- Thuật ngữ (glossary.html)
-- Liên hệ (contact.html)
+- `index.html` — Trang chủ
+- `lesson.html` — Trang bài giảng
+- `quiz.html` — Trang ôn tập
+- `glossary.html` — Trang thuật ngữ
+- `contact.html` — Trang liên hệ
 
 ## 5. Công nghệ sử dụng
 
@@ -61,36 +59,43 @@ Phiên bản hiện tại là **v0.4-tuong-tac**, tập trung vào các chức n
 ### Đinh Mạnh Thiết (Coordinator)
 
 - Quản lý GitHub Repository.
-- Xây dựng js/script.js.
-- Xây dựng data/questions.json.
-- Cập nhật chức năng chung cho website.
-- Cập nhật README.md.
-- Cập nhật CONTRIBUTIONS.md.
-- Cập nhật SOURCES.md.
+- Xây dựng `index.html`.
+- Xây dựng `css/style.css`.
+- Xây dựng `js/script.js`.
+- Xây dựng `data/questions.json`.
+- Cập nhật `README.md`.
+- Cập nhật `CONTRIBUTIONS.md`.
+- Cập nhật `SOURCES.md`.
 
 ### Phạm Thị Thúy (Driver)
 
-- Hoàn thiện chức năng quiz tương tác.
-- Hiển thị câu hỏi từ JSON.
-- Chấm điểm bài trắc nghiệm.
+- Hoàn thiện nội dung `lesson.html`.
+- Hoàn thiện nội dung `quiz.html`.
+- Chuẩn bị và chọn ảnh minh họa.
+- Hỗ trợ trình bày nội dung, card, bảng và bố cục.
 
 ### Nguyễn Quỳnh Trang (Navigator)
 
-- Hoàn thiện thuật ngữ.
+- Hoàn thiện nội dung `glossary.html`.
+- Thu thập nội dung bài học.
+- Soạn và rà soát thuật ngữ.
+- Hỗ trợ kiểm tra tính chính xác của nội dung.
+- Hỗ trợ hoàn thiện dữ liệu học tập.
 
 ### Bùi Lục Huyền (Tester)
 
-- Hoàn thiện kiểm tra form liên hệ.
-- Thêm thông báo phản hồi cho biểu mẫu.
+- Hoàn thiện `contact.html`.
+- Kiểm tra biểu mẫu liên hệ.
+- Thêm và test thông báo phản hồi.
+- Kiểm tra giao diện và liên kết.
 
 ## 8. Tiến độ phát triển
 
-- v0.1-y-tuong
-- v0.2-html
-- v0.3-giao-dien
-- v0.4-tuong-tac
-- v0.1-final-chua-hoan-thien
-
+- `v0.1-y-tuong`
+- `v0.2-html`
+- `v0.3-giao-dien`
+- `v0.4-tuong-tac`
+- `v1.0-final`
 
 ## 9. Trạng thái hiện tại
 
@@ -101,17 +106,40 @@ Phiên bản hiện tại là **v0.4-tuong-tac**, tập trung vào các chức n
 - Chức năng quiz đọc dữ liệu từ JSON.
 - Chức năng chấm điểm trắc nghiệm.
 - Chức năng kiểm tra form liên hệ.
-- Dùng jQuery cho một số hiệu ứng hiển thị.
+- Dùng jQuery cho một số hiệu ứng và tìm kiếm.
 - Đồng bộ chủ đề D trên toàn bộ website.
 
-Các bước hoàn thiện cuối cùng sẽ được thực hiện ở phiên bản tiếp theo.
-
-
+Đây là bản hoàn chỉnh cuối cùng của dự án.
 
 ## 10. Repository
-https://github.com/manhthiet49/ICT0023-K66-Nhom06-DigitalEthics/settings
 
-
+- Repository: https://github.com/manhthiet49/ICT0023-K66-Nhom06-DigitalEthics
 
 ## 11. GitHub Pages
-https://manhthiet49.github.io/ICT0023-K66-Nhom06-DigitalEthics/
+
+- GitHub Pages: https://manhthiet49.github.io/ICT0023-K66-Nhom06-DigitalEthics/
+
+## 12. Sản phẩm phải nộp
+
+- Repository GitHub Public có mã nguồn, lịch sử commit, branch/PR, thành viên và tag `v1.0-final`.
+- GitHub Pages hoạt động công khai, không lỗi tài nguyên, dùng được trên điện thoại.
+- Báo cáo DOCX và PDF cùng nội dung.
+- PPTX khoảng 8–10 slide.
+- Video YouTube Unlisted khoảng 6–8 phút.
+- `README.md`, `SOURCES.md`, `CONTRIBUTIONS.md` đầy đủ.
+- Phiếu tự đánh giá và phiếu chấm chéo theo mẫu giảng viên.
+
+## 13. Cam kết liêm chính học thuật
+
+Nhóm 6 cam kết:
+
+- Tự phân tích, thiết kế và viết mã cho sản phẩm.
+- Không sao chép nguyên bản từ repository của nhóm khác.
+- Mọi tài liệu, ảnh, dữ liệu, mã tham khảo và hỗ trợ AI đều được khai báo trong `SOURCES.md`.
+- Mỗi thành viên hiểu và giải thích được phần việc của mình khi được hỏi.
+
+## 14. Ghi chú
+
+- Nội dung website chỉ phục vụ học tập và tham khảo.
+- Kết quả ôn tập chỉ mang tính chất luyện tập, không thay thế đánh giá chính thức trên lớp.
+- Nếu thay đổi ảnh hoặc đường dẫn tài nguyên, cần kiểm tra lại toàn bộ website trước khi nộp.
