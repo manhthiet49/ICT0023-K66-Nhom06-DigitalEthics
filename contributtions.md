@@ -55,8 +55,8 @@
 | Thành viên | Nội dung đóng góp chính | Mức độ |
 |---|---|---|
 | Đinh Mạnh Thiết | `index.html`, `css/style.css`, `js/script.js`, `data/questions.json` | Chính |
-| Phạm Thị Thúy | Ảnh minh họa, `lesson.html`, `quiz.html`, `glossary.html` | Phối hợp |
-| Nguyễn Quỳnh Trang | Nội dung bài học, thuật ngữ, rà soát nội dung | Phối hợp |
+| Phạm Thị Thúy | Ảnh minh họa, `lesson.html`, `quiz.html` | Phối hợp |
+| Nguyễn Quỳnh Trang | Nội dung bài học,`glossary.html`, thuật ngữ, rà soát nội dung | Phối hợp |
 | Bùi Lục Huyền | `contact.html`, form liên hệ, kiểm thử giao diện | Phối hợp |
 
 ## 5. Cam kết liêm chính học thuật
