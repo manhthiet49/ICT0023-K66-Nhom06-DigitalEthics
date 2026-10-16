@@ -4,33 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Ôn tập - Chủ đề D</title>
+    <title>
+      Ôn tập - Chủ đề D | Đạo đức, pháp luật và văn hóa trong môi trường số
+    </title>
 
     <meta
       name="description"
-      content="Bài kiểm tra trắc nghiệm Chủ đề D - Đạo đức, pháp luật và văn hóa trong môi trường số."
+      content="Trắc nghiệm ôn tập Chủ đề D - Đạo đức, pháp luật và văn hóa trong môi trường số."
     />
-
+    <meta
+      name="keywords"
+      content="Tin học THPT, Chủ đề D, Ôn tập, Trắc nghiệm, Đạo đức số, Công dân số"
+    />
     <meta name="author" content="Nhóm 6 - Trường Đại học Tây Bắc" />
+    <meta name="theme-color" content="#0d6efd" />
 
     <link rel="icon" href="images/logo.png" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow"
+      class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top"
     >
       <div class="container">
         <a
@@ -39,12 +42,15 @@
         >
           <img
             src="images/logo.png"
-            alt="Logo"
-            width="45"
-            height="45"
-            class="rounded-circle me-2"
+            alt="Logo Chủ đề D"
+            width="42"
+            height="42"
+            class="rounded-circle me-2 border border-2 border-white"
           />
-          <span>Chủ đề D</span>
+          <div>
+            <span class="d-block">Chủ đề D</span>
+            <small class="text-white-50">Tin học THPT</small>
+          </div>
         </a>
 
         <button
@@ -52,12 +58,15 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Mở menu điều hướng"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Trang chủ</a>
             </li>
@@ -78,32 +87,88 @@
       </div>
     </nav>
 
-    <header class="bg-primary text-white py-5">
-      <div class="container text-center">
-        <h1 class="display-4 fw-bold">Trắc nghiệm ôn tập</h1>
-        <p class="lead mt-3">
-          Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số
-        </p>
+    <header class="hero-section text-white">
+      <div class="container py-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="badge bg-warning text-dark px-3 py-2 mb-3">
+              Website bài giảng Tin học THPT
+            </span>
+
+            <h1 class="display-4 fw-bold mb-4">
+              Trắc nghiệm ôn tập
+              <br />
+              Chủ đề D
+            </h1>
+
+            <p class="lead mb-4">
+              Kiểm tra mức độ hiểu bài sau khi học Chủ đề D. Hệ thống sẽ tự động
+              chấm điểm, hiển thị đáp án đúng, giải thích từng câu hỏi và đưa ra
+              đánh giá ngay sau khi nộp bài.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#quizArea" class="btn btn-warning btn-lg">
+                <i class="bi bi-play-circle-fill me-2"></i> Bắt đầu làm bài
+              </a>
+              <a href="lesson.html" class="btn btn-outline-light btn-lg">
+                <i class="bi bi-book-half me-2"></i> Xem lại bài học
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 text-center">
+            <img
+              src="images/banner.jpg"
+              alt="Ôn tập Chủ đề D"
+              class="img-fluid rounded-4 shadow-lg"
+            />
+          </div>
+        </div>
       </div>
     </header>
 
+    <section class="bg-white border-bottom py-3">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a href="lesson.html">Bài giảng</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ôn tập</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
     <section class="py-5 bg-light">
       <div class="container">
-        <div class="alert alert-info shadow">
-          <h4>
-            <i class="bi bi-info-circle-fill"></i>
-            Hướng dẫn làm bài
-          </h4>
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Hướng dẫn làm bài</h2>
+          <p class="text-muted">
+            Đọc kỹ hướng dẫn trước khi bắt đầu làm bài trắc nghiệm.
+          </p>
+        </div>
+
+        <div class="alert alert-info shadow-sm rounded-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-info-circle-fill me-2"></i> Lưu ý
+          </h5>
           <ul class="mb-0">
-            <li>Mỗi câu hỏi chỉ có một đáp án đúng.</li>
+            <li>Mỗi câu hỏi chỉ có <strong>01 đáp án đúng</strong>.</li>
             <li>
-              Bài kiểm tra được tải từ file
-              <strong>data/questions.json</strong>.
+              Dữ liệu câu hỏi được đọc từ <strong>data/questions.json</strong>.
             </li>
-            <li>Chọn đầy đủ đáp án trước khi nhấn <strong>Nộp bài</strong>.</li>
-            <li>Nhấn <strong>Dùng thử</strong> để hệ thống chọn đáp án mẫu.</li>
-            <li>Nhấn <strong>Làm lại</strong> để xóa toàn bộ kết quả.</li>
-            <li>Kết quả sẽ hiển thị điểm số và đánh giá sau khi chấm.</li>
+            <li>
+              Hệ thống tự động chấm điểm sau khi nhấn <strong>Nộp bài</strong>.
+            </li>
+            <li>
+              Có nút <strong>Dùng thử</strong> để kiểm tra nhanh chức năng.
+            </li>
+            <li>Có nút <strong>Làm lại</strong> để xóa toàn bộ đáp án.</li>
+            <li>
+              Kết quả chỉ mang tính chất ôn tập, không thay thế điểm kiểm tra
+              trên lớp.
+            </li>
           </ul>
         </div>
       </div>
@@ -111,34 +176,106 @@
 
     <section class="pb-5">
       <div class="container">
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card border-0 shadow-sm text-center h-100 stat-card">
+              <div class="card-body">
+                <i class="bi bi-patch-question-fill display-5 text-primary"></i>
+                <h3 class="fw-bold mt-3" id="totalQuestion">0</h3>
+                <p class="text-muted mb-0">Tổng số câu hỏi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card border-0 shadow-sm text-center h-100 stat-card">
+              <div class="card-body">
+                <i class="bi bi-check-circle-fill display-5 text-success"></i>
+                <h3 class="fw-bold mt-3">10</h3>
+                <p class="text-muted mb-0">Điểm tối đa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card border-0 shadow-sm text-center h-100 stat-card">
+              <div class="card-body">
+                <i class="bi bi-clock-history display-5 text-warning"></i>
+                <h3 class="fw-bold mt-3">Không giới hạn</h3>
+                <p class="text-muted mb-0">Thời gian làm bài</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card border-0 shadow-sm text-center h-100 stat-card">
+              <div class="card-body">
+                <i class="bi bi-bar-chart-fill display-5 text-danger"></i>
+                <h3 class="fw-bold mt-3" id="answeredCount">0</h3>
+                <p class="text-muted mb-0">Đã trả lời</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="fw-semibold">Tiến độ hoàn thành</span>
+            <span id="progressText">0%</span>
+          </div>
+          <div class="progress rounded-pill" style="height: 18px">
+            <div
+              id="quizProgress"
+              class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+              style="width: 0%"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quizArea" class="pb-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Bộ câu hỏi ôn tập</h2>
+          <p class="text-muted">
+            Chọn đáp án phù hợp cho từng câu hỏi trước khi nộp bài.
+          </p>
+        </div>
+
         <form id="quizForm">
           <div id="quizContainer">
             <div class="text-center py-5">
               <div class="spinner-border text-primary" role="status">
                 <span class="visually-hidden">Loading...</span>
               </div>
-              <p class="mt-3">Đang tải câu hỏi...</p>
+              <p class="mt-3">Đang tải dữ liệu câu hỏi...</p>
             </div>
           </div>
 
           <div class="text-center mt-5">
-            <button type="button" id="demoBtn" class="btn btn-info btn-lg me-2">
-              <i class="bi bi-lightning-fill"></i>
-              Dùng thử
+            <button
+              type="button"
+              id="demoBtn"
+              class="btn btn-info btn-lg px-4 me-2 mb-2"
+            >
+              <i class="bi bi-lightning-charge-fill me-2"></i> Dùng thử
             </button>
 
             <button
               type="button"
               id="submitBtn"
-              class="btn btn-success btn-lg me-2"
+              class="btn btn-success btn-lg px-4 me-2 mb-2"
             >
-              <i class="bi bi-check-circle-fill"></i>
-              Nộp bài
+              <i class="bi bi-check-circle-fill me-2"></i> Nộp bài
             </button>
 
-            <button type="reset" id="resetBtn" class="btn btn-warning btn-lg">
-              <i class="bi bi-arrow-clockwise"></i>
-              Làm lại
+            <button
+              type="reset"
+              id="resetBtn"
+              class="btn btn-warning btn-lg px-4 mb-2"
+            >
+              <i class="bi bi-arrow-clockwise me-2"></i> Làm lại
             </button>
           </div>
         </form>
@@ -147,44 +284,110 @@
 
     <section class="pb-5">
       <div class="container">
-        <div id="result" class="alert alert-success text-center d-none"></div>
+        <div id="resultCard" class="card border-0 shadow-lg rounded-4 d-none">
+          <div class="card-header bg-success text-white text-center py-3">
+            <h3 class="mb-0">
+              <i class="bi bi-award-fill me-2"></i> Kết quả bài làm
+            </h3>
+          </div>
+
+          <div class="card-body p-4">
+            <div class="row text-center g-4">
+              <div class="col-md-3">
+                <div class="border rounded-4 p-3 h-100">
+                  <h2 id="score" class="fw-bold text-success">0</h2>
+                  <p class="mb-0">Điểm</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="border rounded-4 p-3 h-100">
+                  <h2 id="correct" class="fw-bold text-primary">0</h2>
+                  <p class="mb-0">Câu đúng</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="border rounded-4 p-3 h-100">
+                  <h2 id="wrong" class="fw-bold text-danger">0</h2>
+                  <p class="mb-0">Câu sai</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="border rounded-4 p-3 h-100">
+                  <h2 id="percent" class="fw-bold text-warning">0%</h2>
+                  <p class="mb-0">Hoàn thành</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="evaluation"
+              class="alert alert-primary text-center mt-4 mb-0"
+            >
+              Chưa có kết quả.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="bg-light py-5">
+    <section class="pb-5">
       <div class="container">
-        <h2 class="text-center text-primary fw-bold mb-5">Các bước làm bài</h2>
+        <div id="answerSection" class="d-none">
+          <h2 class="text-center fw-bold text-primary mb-5">
+            Giải thích đáp án
+          </h2>
+          <div id="answerContainer"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Mẹo ôn tập hiệu quả</h2>
+          <p class="text-muted">
+            Một số gợi ý giúp bạn ghi nhớ kiến thức Chủ đề D tốt hơn.
+          </p>
+        </div>
 
         <div class="row g-4">
           <div class="col-md-4">
-            <div class="card h-100 shadow-sm text-center">
-              <div class="card-body">
-                <i class="bi bi-1-circle-fill display-4 text-primary"></i>
-                <h5 class="mt-3">Bước 1</h5>
-                <p>Đọc kỹ câu hỏi và chọn một đáp án đúng nhất.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card h-100 shadow-sm text-center">
-              <div class="card-body">
-                <i class="bi bi-2-circle-fill display-4 text-success"></i>
-                <h5 class="mt-3">Bước 2</h5>
-                <p>
-                  Nhấn <strong>Nộp bài</strong> để hệ thống tự động chấm điểm.
+            <div class="card h-100 shadow-sm feature-card">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-book-half display-4 text-primary"></i>
+                <h4 class="mt-3">Ôn lại bài học</h4>
+                <p class="mb-0">
+                  Đọc lại lý thuyết và các ví dụ trong bài giảng trước khi làm
+                  bài kiểm tra.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="col-md-4">
-            <div class="card h-100 shadow-sm text-center">
-              <div class="card-body">
-                <i class="bi bi-3-circle-fill display-4 text-danger"></i>
-                <h5 class="mt-3">Bước 3</h5>
-                <p>
-                  Xem điểm số, nhận đánh giá và làm lại nếu muốn ôn tập thêm.
+            <div class="card h-100 shadow-sm feature-card">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-lightbulb-fill display-4 text-warning"></i>
+                <h4 class="mt-3">Ghi nhớ khái niệm</h4>
+                <p class="mb-0">
+                  Chú ý các khái niệm như đạo đức số, pháp luật số, công dân số
+                  và bảo vệ dữ liệu cá nhân.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm feature-card">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-arrow-repeat display-4 text-success"></i>
+                <h4 class="mt-3">Luyện tập nhiều lần</h4>
+                <p class="mb-0">
+                  Có thể làm lại bài kiểm tra nhiều lần để ghi nhớ kiến thức tốt
+                  hơn.
                 </p>
               </div>
             </div>
@@ -197,28 +400,32 @@
       <div class="container">
         <h2 class="fw-bold">Tiếp tục khám phá Chủ đề D</h2>
         <p class="lead mt-3">
-          Sau khi hoàn thành bài kiểm tra, hãy tiếp tục tìm hiểu các thuật ngữ
-          và kiến thức quan trọng để sử dụng Internet an toàn, văn minh và đúng
-          pháp luật.
+          Sau khi hoàn thành bài kiểm tra, hãy tiếp tục xem lại bài học và tra
+          cứu các thuật ngữ quan trọng để củng cố kiến thức.
         </p>
-        <a href="glossary.html" class="btn btn-warning btn-lg mt-3">
-          <i class="bi bi-book-half"></i>
-          Xem thuật ngữ
-        </a>
+
+        <div class="d-flex justify-content-center flex-wrap gap-3 mt-4">
+          <a href="lesson.html" class="btn btn-warning btn-lg">
+            <i class="bi bi-book-half me-2"></i> Xem bài giảng
+          </a>
+          <a href="glossary.html" class="btn btn-outline-light btn-lg">
+            <i class="bi bi-journal-bookmark-fill me-2"></i> Thuật ngữ
+          </a>
+        </div>
       </div>
     </section>
 
-    <footer class="bg-dark text-white py-5">
+    <footer class="bg-dark text-white pt-5 pb-3">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-4">
-            <h4 class="d-flex align-items-center gap-2">
+            <h4 class="fw-bold d-flex align-items-center gap-2">
               <img
                 src="images/logo.png"
+                alt="Logo Chủ đề D"
                 width="40"
                 height="40"
                 class="rounded-circle"
-                alt="Logo"
               />
               Chủ đề D
             </h4>
@@ -229,24 +436,24 @@
           </div>
 
           <div class="col-lg-4">
-            <h5>Liên kết nhanh</h5>
-            <ul class="list-unstyled">
-              <li>
+            <h5 class="fw-bold">Điều hướng</h5>
+            <ul class="list-unstyled mt-3">
+              <li class="mb-2">
                 <a href="index.html" class="text-white text-decoration-none"
                   >Trang chủ</a
                 >
               </li>
-              <li>
+              <li class="mb-2">
                 <a href="lesson.html" class="text-white text-decoration-none"
                   >Bài giảng</a
                 >
               </li>
-              <li>
+              <li class="mb-2">
                 <a href="quiz.html" class="text-white text-decoration-none"
                   >Ôn tập</a
                 >
               </li>
-              <li>
+              <li class="mb-2">
                 <a href="glossary.html" class="text-white text-decoration-none"
                   >Thuật ngữ</a
                 >
@@ -260,24 +467,23 @@
           </div>
 
           <div class="col-lg-4">
-            <h5>Thông tin</h5>
+            <h5 class="fw-bold">Thông tin nhóm</h5>
             <p class="mt-3">
-              <i class="bi bi-people-fill"></i>
-              Nhóm 6
+              <i class="bi bi-people-fill me-2"></i>
+              Nhóm 6 - Trường Đại học Tây Bắc
             </p>
             <p>
-              <i class="bi bi-building"></i>
-              Trường Đại học Tây Bắc
+              <i class="bi bi-envelope-fill me-2"></i>
+              nhom06@utb.edu.vn
             </p>
             <p>
-              <i class="bi bi-calendar-event"></i>
-              Năm học 2026
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              Thành phố Sơn La
             </p>
           </div>
         </div>
 
-        <hr />
-
+        <hr class="my-4" />
         <div class="text-center">
           <p class="mb-1">© 2026 Nhóm 6 - Website bài giảng Tin học THPT</p>
           <small
@@ -289,15 +495,16 @@
 
     <button
       id="topBtn"
-      class="btn btn-primary rounded-circle shadow"
+      class="btn btn-primary rounded-circle d-flex align-items-center justify-content-center shadow"
+      aria-label="Cuộn lên đầu trang"
       style="
+        display: none;
         position: fixed;
         bottom: 20px;
         right: 20px;
-        display: none;
-        z-index: 999;
         width: 55px;
         height: 55px;
+        z-index: 999;
       "
     >
       <i class="bi bi-arrow-up"></i>
